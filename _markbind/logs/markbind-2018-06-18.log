@@ -1,10 +1,23 @@
-2018-06-18T03:35:32.805Z - info: Pages built
-2018-06-18T03:35:32.837Z - info: Site data built
-2018-06-18T03:35:32.845Z - info: Generate Site durationMs=75937
-2018-06-18T03:35:32.862Z - info: Serving "C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_site" at http://127.0.0.1:8080
-2018-06-18T03:35:32.863Z - info: Press CTRL+C to stop ...
-2018-06-18T04:15:00.456Z - info: Pages built
-2018-06-18T04:15:00.482Z - info: Site data built
-2018-06-18T04:15:00.493Z - info: Generate Site durationMs=45137
-2018-06-18T04:15:01.527Z - info: Serving "C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_site" at http://127.0.0.1:4519
-2018-06-18T04:15:01.527Z - info: Press CTRL+C to stop ...
+2018-06-18T07:05:34.257Z - error:  Error: No such file: C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_markbind\boilerplates\unit-inElsewhere-asFlat.md
+Missing reference in C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\admin\project-v10.md
+    at Parser._preprocess (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:136:21)
+    at element.children.element.children.map.e (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:43)
+    at element.children.element.children.map.e (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:43)
+    at element.children.element.children.map.e (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:43)
+    at element.children.element.children.map.e (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:250:43)
+    at element.children.element.children.map.e (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:228:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\markbind\lib\markbind\lib\parser.js:228:43)
+2018-06-18T07:06:58.074Z - info: Pages built
+2018-06-18T07:06:58.108Z - info: Site data built
+2018-06-18T07:06:58.120Z - info: Generate Site durationMs=47191
+2018-06-18T07:06:58.133Z - info: Serving "C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_site" at http://127.0.0.1:8080
+2018-06-18T07:06:58.133Z - info: Press CTRL+C to stop ...
