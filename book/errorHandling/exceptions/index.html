@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="/website-base/book/css/textbook.css">
 <div class="website-content" id="all">
   <p><span class="dimmed"><strong>Error Handling →</strong></span></p>
-  <h2 id="exceptions">Exceptions</h2>
+  <div id="title">
+    <h2 id="exceptions">Exceptions</h2>
+  </div>
   <div id="main">
     <div>
       <panel type="seamless" expanded="">
@@ -26,6 +28,7 @@
             <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain exceptions <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png"></p>
           </div>
         </tip-box>
+        <p></p>
         <div>
           <p><strong>Exceptions are used to deal with <em>'unusual' but not entirely unexpected</em> situations</strong> that the program might encounter at run time.</p>
           <tip-box type="definition">
@@ -56,6 +59,7 @@
             <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can do exception handling in code <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png"></p>
           </div>
         </tip-box>
+        <p></p>
         <div>
           <p><strong>Most languages allow a method/function to encapsulate the unusual situation in an Exception object and 'throw'/'raise' that object so that another piece of code can 'catch' it and deal with it.</strong> This is especially useful when
             code segment that encountered the unusual situation does not know how to deal with it.</p>
@@ -126,6 +130,7 @@
             <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can avoid using exceptions to control normal workflow <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0033-20e3.png"></p>
           </div>
         </tip-box>
+        <p></p>
         <div>
           <p>In general, use exceptions only for 'unusual' conditions. Use normal <code>return</code> statements to pass control to the caller for conditions that are 'normal'.</p>
         </div>
