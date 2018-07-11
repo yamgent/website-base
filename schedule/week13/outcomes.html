@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2103/T Website</title>
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap.min.css">
+    <link rel="stylesheet" href="..\..\markbind\css\bootstrap-vue.min.css">
+    <link rel="stylesheet" href="..\..\markbind\css\font-awesome.min.css" >
+    <link rel="stylesheet" href="..\..\markbind\css\bootstrap-glyphicons.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\markbind.css">
+    <link rel="stylesheet" href="..\..\markbind\css\site-nav.css">
     <link rel="icon" href="/website-base/favicon.ico">
 </head>
 <body>
@@ -17,46 +21,51 @@
 <div class="website-content">
   <h2 id="week-13-outcomes">Week 13 - Outcomes</h2>
   <div id="main">
-
-    <panel type="danger" header="**`W13.1` Can demo a product** :star:" no-close="">
-      <panel header="<span class='glyphicon glyphicon-folder-close' aria-hidden='true'></span> Evidence" expanded="">
-        <p>Covered by the 'Demo' component of v1.5:</p>
-        <p>
-          <panel src="/website-base\admin\project-v15._include_.html" name="%%Admin » Project → v1.5%%" header="%%Admin » Project → v1.5%%" isOpen="false" no-close="true" no-switch="true"></panel>
-        </p>
+    <p><span class="activity-desc">🅿️ Project</span></p>
+    <div class="indented">
+      <panel no-close="">
+        <span slot="header" class="panel-title"><span><code>W13.1</code> <strong>Can acceptance-test a product</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+        </span>
+        </span>
+        <div>
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website-base\admin\project-w13-v14._include_.html#main" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Project → v1.4%%" fragment="main"></panel>
+          </p>
+        </div>
       </panel>
-    </panel>
-
-    <panel type="info" header="**`W13.2` Can deliver a product iteratively** :star::star::star:" no-close="">
-      <panel header="<span class='glyphicon glyphicon-folder-close' aria-hidden='true'></span> Evidence" expanded="">
-        <p>Covered by v1.0-v1.5:</p>
+      <panel no-close="">
+        <span slot="header" class="panel-title"><span><code>W13.2</code> <strong>Can evaluate a technical effort</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+        </span>
+        </span>
+        <div>
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website-base\admin\project-w13-v14._include_.html#main" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Project → v1.4%%" fragment="main"></panel>
+          </p>
+        </div>
       </panel>
-    </panel>
-
-    <panel type="danger" header="**`W13.3` Can work in an existing code base of small/medium size** :star:" no-close="">
-      <panel header="<span class='glyphicon glyphicon-folder-close' aria-hidden='true'></span> Evidence" expanded="">
-        <p>Covered by v1.0-v1.5:</p>
+      <panel no-close="">
+        <span slot="header" class="panel-title"><span><code>W13.3</code> <strong>Can demo a product</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+        </span>
+        </span>
+        <div>
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website-base\admin\project-w13-v14._include_.html#main" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Project → v1.4%%" fragment="main"></panel>
+          </p>
+        </div>
       </panel>
-    </panel>
-
-    <panel type="warning" header="**`W13.4` Can evaluate contributions from project members** :star::star:" no-close="">
-      <panel header="<span class='glyphicon glyphicon-folder-close' aria-hidden='true'></span> Evidence" expanded="">
-        <p>Covered by the 'Peer Evaluations' component of the module:</p>
-        <p>
-          <panel src="/website-base\admin\peer-evaluations._include_.html" name="%%Admin » Peer Evaluations%%" header="%%Admin » Peer Evaluations%%" isOpen="false" no-close="true" no-switch="true"></panel>
-        </p>
-        <p>Also covered by the 'Practical Exam' of v1.5:</p>
-        <p>
-          <panel src="/website-base\admin\project-v15._include_.html" name="%%Admin » Project → v1.5%%" header="%%Admin » Project → v1.5%%" isOpen="false" no-close="true" no-switch="true"></panel>
-        </p>
-      </panel>
-    </panel>
+    </div>
+    <p></p>
   </div>
 </div>
 </div>
 </body>
 <script src="..\..\markbind\js\vue.min.js"></script>
 <script src="..\..\markbind\js\vue-strap.min.js"></script>
+<script src="..\..\markbind\js\polyfill.min.js"></script>
+<script src="..\..\markbind\js\bootstrap-vue.min.js"></script>
 <script>
     const baseUrl = '/website-base'
 </script>

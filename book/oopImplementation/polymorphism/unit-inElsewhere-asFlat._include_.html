@@ -1,9 +1,8 @@
 <div>
   <p>
-    <panel src="/website-base\book\oopDesign\polymorphism\introduction\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Polymorphism → Introduction%%" isOpen="false" no-close="true"
-      no-switch="true"></panel>
-    <panel src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → What%%" isOpen="false" no-close="true" no-switch="true"></panel>
-    <panel src="/website-base\book\oopImplementation\overriding\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → OOP → Overriding%%" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website-base\book\oopDesign\polymorphism\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Polymorphism → Introduction%%"></panel>
+    <panel src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → What%%"></panel>
+    <panel src="/website-base\book\oopImplementation\overriding\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → OOP → Overriding%%"></panel>
   </p>
 </div>
 <p></p>
@@ -13,13 +12,13 @@
 </p>
 <div id="title-and-body">
   <div>
-    <h4 id="implementing-polymorphism-two">Implementing Polymorphism <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png"></h4>
+    <h4 id="implementing-polymorphism">Implementing Polymorphism</h4>
   </div>
   <div id="main">
     <div>
       <p><strong>We can use inheritance to achieve polymorphism</strong>.</p>
       <tip-box>
-        <p>📦 Continuing with the example given in [
+        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Continuing with the example given in [
           <trigger trigger="click" for="modal:oopImpl-polymorphism"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> OOP → Polymorphism → Introduction </trigger>], given below is the minimum code for <code>Staff</code>, <code>Admin</code>, and <code>Academic</code> classes that achieves
           the desired polymorphism.</p>
         <modal title="" id="modal:oopImpl-polymorphism">
@@ -33,7 +32,7 @@
             </p>
             <div id="title-and-body">
               <div>
-                <h4 id="introduction-two">Introduction <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png"></h4>
+                <h4 id="introduction">Introduction</h4>
               </div>
               <div id="main">
                 <div>
@@ -48,12 +47,8 @@
                   <p>Take the example of writing a payroll application for a university to facilitate payroll processing of university staff. Suppose an <code>adjustSalary(int)</code> operation adjusts the salaries of all staff members. This operation will
                     be executed whenever the university initiates a salary adjustment for its staff. However, the adjustment formula is different for different staff categories, say admin and academic. Here is one possible way of designing the classes
                     in the <code>Payroll</code> system.</p>
-                  <tip-box>
-                    <p>📦 Calling <code>adjustSalary()</code> method for each Staff type:</p>
-                    <img src="/website-base/book/oopDesign/polymorphism/introduction/images/payroll.png" height="150">
-                    <p></p>
-                    <p>Here is the implementation of the <code>adjustSalary(int)</code> operation from the above design.</p>
-                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll1</span> </span>{
+                  <p>Here is the implementation of the <code>adjustSalary(int)</code> operation.</p>
+                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll1</span> </span>{
     ArrayList&lt; Admin &gt; admins;
     ArrayList&lt; Academic &gt; academics;
     <span class="hljs-comment">// ...</span>
@@ -68,11 +63,9 @@
     }
 }
 </code></pre>
-                  </tip-box>
                   <p>Note how processing is similar for the two staff types. It is as if the type of staff members is irrelevant to how they are processed inside this operation! If that is the case, can the staff type be &quot;abstracted away&quot; from
                     this method? Here is such an implementation of <code>adjustSalary(int)</code>:</p>
-                  <tip-box>
-                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll2</span> </span>{
+                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll2</span> </span>{
     ArrayList&lt; Staff &gt; staff;
     <span class="hljs-comment">// ...</span>
 
@@ -83,13 +76,12 @@
     }
 }
 </code></pre>
-                    <p>Notice the following:</p>
-                    <ul>
-                      <li>Only one data structure <code>ArrayList&lt; Staff &gt;</code>. It contains both <code>Admin</code> and <code>Academic</code> objects but treats them as <code>Staff</code> objects</li>
-                      <li>Only one loop</li>
-                      <li>Outcome of the <code>s.adjustSalary(byPercent)</code> method call depends on whether <code>s</code> is an <code>Academic</code> or <code>Admin</code> object</li>
-                    </ul>
-                  </tip-box>
+                  <p>Notice the following:</p>
+                  <ul>
+                    <li>Only one data structure <code>ArrayList&lt; Staff &gt;</code>. It contains both <code>Admin</code> and <code>Academic</code> objects but treats them as <code>Staff</code> objects</li>
+                    <li>Only one loop</li>
+                    <li>Outcome of the <code>s.adjustSalary(byPercent)</code> method call depends on whether <code>s</code> is an <code>Academic</code> or <code>Admin</code> object</li>
+                  </ul>
                   <p>The above code is better in several ways:</p>
                   <ul>
                     <li>It is shorter.</li>

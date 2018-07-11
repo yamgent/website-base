@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2103/T Website - About: Usage</title>
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap.min.css">
+    <link rel="stylesheet" href="..\..\markbind\css\bootstrap-vue.min.css">
+    <link rel="stylesheet" href="..\..\markbind\css\font-awesome.min.css" >
+    <link rel="stylesheet" href="..\..\markbind\css\bootstrap-glyphicons.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\markbind.css">
+    <link rel="stylesheet" href="..\..\markbind\css\site-nav.css">
     <link rel="icon" href="/website-base/favicon.ico">
 </head>
 <body>
@@ -40,12 +44,6 @@
       <p></p>
     </panel>
     <p></p>
-    <p><strong>Dash lines indicate collapsed content.</strong> Click on them to expand:</p>
-    <panel type="seamless" header="%%--------------------------------------%%">
-      <p>Some content</p>
-      <p></p>
-    </panel>
-    <p></p>
     <p><strong>Tabs indicate alternative formats of the same content</strong> (e.g. video vs text). You can choose the one you like and ignore the other tabs.</p>
     <tip-box>
       <tabs>
@@ -57,7 +55,7 @@
           </p>
         </tab>
       
-        <tab header=":tv:">
+        <tab header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span>">
           <p>Video describing X</p>
           <p>
             <hr>
@@ -74,8 +72,7 @@
     <modal title="Modal Example" id="modal:modal-example">
       Additional information
     </modal>
-    <p><strong>Sections tagged as <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0030-20e3.png"> can be ignored because they are tangential info</strong> that
-      are strictly not within the scope of the topic.</p>
+    <p><strong>Sections tagged as <span class="badge">tangential</span> can be ignored because they are tangential info</strong> that are strictly not within the scope of the topic.</p>
   </div>
   <div id="conventions">
     <h3 id="conventions-used">Conventions Used</h3>
@@ -84,25 +81,25 @@
       <li>
         <p><strong>What</strong> : the <strong>meaning</strong> of the concept in concern</p>
         <p>
-          <panel name="%%Example%%" src="/website-base\book\refactoring\what\unit-inElsewhere-asFlat._include_.html" header="%%Example%%" isOpen="false" no-close="true" no-switch="true"></panel>
+          <panel header="%%Example%%" src="/website-base\book\refactoring\what\unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
       <li>
         <p><strong>Why</strong> : the <strong>motivation</strong> behind the concept in concern</p>
         <p>
-          <panel name="%%Example%%" src="/website-base\book\documentation\guidelines\goTopDown\why\unit-inElsewhere-asFlat._include_.html" header="%%Example%%" isOpen="false" no-close="true" no-switch="true"></panel>
+          <panel header="%%Example%%" src="/website-base\book\documentation\guidelines\goTopDown\why\unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
       <li>
         <p><strong>How</strong> : the <strong>usage</strong> of the concept in concern</p>
         <p>
-          <panel name="%%Example%%" src="/website-base\book\refactoring\how\unit-inElsewhere-asFlat._include_.html" header="%%Example%%" isOpen="false" no-close="true" no-switch="true"></panel>
+          <panel header="%%Example%%" src="/website-base\book\refactoring\how\unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
       <li>
         <p><strong>When</strong> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
         <p>
-          <panel name="%%Example%%" src="/website-base\book\refactoring\when\unit-inElsewhere-asFlat._include_.html" header="%%Example%%" isOpen="false" no-close="true" no-switch="true"></panel>
+          <panel header="%%Example%%" src="/website-base\book\refactoring\when\unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
     </ul>
@@ -130,18 +127,16 @@
     </tip-box>
     <p>Meaning of icons:</p>
     <ul>
-      <li><img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png"> <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png">        <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0033-20e3.png"> <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;"
-          src="https://assets-cdn.github.com/images/icons/emoji/unicode/0034-20e3.png"> : indication of the depth of the topic, in order of increasing depth (<img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png">        is the least depth)</li>
-      <li><img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0030-20e3.png"> : tangential info, can be ignored if not interested</li>
+      <li><span class="badge">tangential</span> : tangential info, can be ignored if not interested</li>
       <li><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> : direct link to the LO. <code>Ctrl+Click</code> to open the LO in new window/tab.</li>
       <li><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> : learning outcomes</li>
       <li><span class="glyphicon glyphicon-education" aria-hidden="true"></span> : prerequisite learning outcome</li>
-      <li>📦 : examples</li>
+      <li><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> : examples</li>
       <li>📎 : resources</li>
       <li>💪 : exercises</li>
       <li><span class="glyphicon glyphicon-print" aria-hidden="true"></span> : printable version</li>
       <li><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> : preview/more info</li>
-      <li>📺 : video</li>
+      <li><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> : video</li>
       <li>🔤 : textual description</li>
       <li>📊 : slides</li>
       <li>⤵️ : output produced by running code</li>
@@ -178,6 +173,8 @@
 </body>
 <script src="..\..\markbind\js\vue.min.js"></script>
 <script src="..\..\markbind\js\vue-strap.min.js"></script>
+<script src="..\..\markbind\js\polyfill.min.js"></script>
+<script src="..\..\markbind\js\bootstrap-vue.min.js"></script>
 <script>
     const baseUrl = '/website-base'
 </script>

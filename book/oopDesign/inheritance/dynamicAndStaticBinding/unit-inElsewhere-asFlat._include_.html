@@ -6,7 +6,7 @@
 </p>
 <div id="title-and-body">
   <div>
-    <h4 id="dynamic-and-static-binding-three">Dynamic and Static Binding <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0033-20e3.png"></h4>
+    <h4 id="dynamic-and-static-binding">Dynamic and Static Binding</h4>
   </div>
   <div id="main">
     <div>
@@ -20,13 +20,12 @@
         </div>
       </tip-box>
       <p><strong><trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.</strong></p>
-      <modal large="" title="Textbook »" id="modal:dynamicAndStatic-overriding">
+      <modal large="" title="Textbook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="modal:dynamicAndStatic-overriding">
       
         <div>
           <div>
             <p>
-              <panel src="/website-base\book\oopDesign\inheritance\overriding\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → Overriding%%" isOpen="false" no-close="true"
-                no-switch="true"></panel>
+              <panel src="/website-base\book\oopDesign\inheritance\overriding\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → Overriding%%"></panel>
             </p>
           </div>
           <p></p>
@@ -36,7 +35,7 @@
           </p>
           <div id="title-and-body">
             <div>
-              <h4 id="implementing-overriding-one">Implementing Overriding <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png"></h4>
+              <h4 id="implementing-overriding">Implementing Overriding</h4>
             </div>
             <div id="main">
               <div>
@@ -46,7 +45,7 @@
                   <tab header="Java">
                     <div>
                       <tip-box>
-                        <p>📦 A simple example where the <code>Report#print()</code> method is overridden by <code>EvaluationReport#print()</code> method:</p>
+                        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> A simple example where the <code>Report#print()</code> method is overridden by <code>EvaluationReport#print()</code> method:</p>
                         <pre><code class="hljs java">
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Report</span></span>{
 
@@ -87,7 +86,7 @@
                   <tab header="Python">
                     <div>
                       <tip-box>
-                        <p>📦 In the example below, <code>Student</code> class overrides the <code>print_info</code> method of its parent class <code>Person</code>:</p>
+                        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> In the example below, <code>Student</code> class overrides the <code>print_info</code> method of its parent class <code>Person</code>:</p>
                         <table>
                           <tr>
                           
@@ -178,17 +177,16 @@ Ben is a student
         </div>
       </modal>
       <tip-box>
-        <p>📦 Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class is invoked.</p>
-        <img src="/website-base/book/oopDesign/inheritance/dynamicAndStaticBinding/images/staff.png" height="150">
-        <p></p>
+        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class
+          is invoked.</p>
         <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
     <span class="hljs-keyword">for</span> (Staff s: staff) {
         s.adjustSalary(byPercent);
     }
 }
 </code></pre>
-        <p>However, at runtime the <code>adjustSalary(int)</code> operation of the actual object will be called (i.e. <code>adjustSalary(int)</code> operation of <code>Admin</code> or <code>Academic</code>). If the actual object does not override that operation,
-          the operation defined in the immediate superclass (in this case, <code>Staff</code> class) will be called.</p>
+        <p>However, at runtime s can receive an object of any sub class of <code>Staff</code>. That means the <code>adjustSalary(int)</code> operation of the actual subclass object will be called. If the subclass does not override that operation, the operation
+          defined in the superclass (in this case, <code>Staff</code> class) will be called.</p>
       </tip-box>
       <tip-box type="definition">
       
@@ -197,13 +195,12 @@ Ben is a student
         </div>
       </tip-box>
       <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
-      <modal large="" title="Textbook »" id="modal:dynamicAndStatic-overloading">
+      <modal large="" title="Textbook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="modal:dynamicAndStatic-overloading">
       
         <div>
           <div>
             <p>
-              <panel src="/website-base\book\oopDesign\inheritance\overloading\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%OOP → Inheritance → Overloading%%" isOpen="false" no-close="true"
-                no-switch="true"></panel>
+              <panel src="/website-base\book\oopDesign\inheritance\overloading\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%OOP → Inheritance → Overloading%%"></panel>
             </p>
           </div>
           <p></p>
@@ -213,7 +210,7 @@ Ben is a student
           </p>
           <div id="title-and-body">
             <div>
-              <h4 id="implementing-overloading-one">Implementing Overloading <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png"></h4>
+              <h4 id="implementing-overloading">Implementing Overloading</h4>
             </div>
             <div id="main">
               <div>
@@ -223,7 +220,8 @@ Ben is a student
                   <tab header="Java">
                     <div>
                       <tip-box>
-                        <p>📦 The constructor of the <code>Account</code> class below is <em>overloaded</em> because there are two constructors with different signatures: <code>()</code> and <code>(String, String, double)</code>. Furthermore, the <code>save</code>                          method in the <code>Account</code> class is overloaded in the child class <code>SavingAccount</code>.</p>
+                        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The constructor of the <code>Account</code> class below is <em>overloaded</em> because there are two constructors with different signatures: <code>()</code> and
+                          <code>(String, String, double)</code>. Furthermore, the <code>save</code> method in the <code>Account</code> class is overloaded in the child class <code>SavingAccount</code>.</p>
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
     Account () {
         ...
@@ -268,7 +266,7 @@ Ben is a student
         </div>
       </modal>
       <tip-box>
-        <p>📦 Note how the constructor is overloaded in the class below. The method call <code>new Account()</code> is bound to the first constructor at compile time.</p>
+        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Note how the constructor is overloaded in the class below. The method call <code>new Account()</code> is bound to the first constructor at compile time.</p>
         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
     Account () {
         <span class="hljs-comment">// Signature: ()</span>
@@ -280,7 +278,8 @@ Ben is a student
     }
 }
 </code></pre>
-        <p>📦 Similarly, the <code>calcuateGrade</code> method is overloaded in the code below and a method call <code>calculateGrade(&quot;A1213232&quot;)</code> is bound to the second implementation, at compile time.</p>
+        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Similarly, the <code>calcuateGrade</code> method is overloaded in the code below and a method call <code>calculateGrade(&quot;A1213232&quot;)</code> is bound to the second implementation,
+          at compile time.</p>
         <pre class="hljs"><code>void calculateGrade (int[] averages) { ... }
 void calculateGrade (String matric) { ... }
 </code></pre>
