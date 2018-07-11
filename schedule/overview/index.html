@@ -16,7 +16,7 @@
 </head>
 <body>
 <div id="app" class="container-fluid">
-    <panel type="danger" header="**Important info about using this website** :star:" expandable="">
+    <panel dynamic="" type="danger" header="**Important info about using this website** :star:" expandable="">
   <div>
     <img src="/website-base/images/growingPlant.png" width="700">
     <tip-box type="important">
@@ -32,7 +32,7 @@
     <tip-box>
       <p>ℹ️ This website was generated using the <a href="https://markbind.github.io/">MarkBind</a> software developed at NUS. <strong>We welcome bug reports, suggestions, and contributions</strong>, to be submitted <a href="https://github.com/nus-cs2103-AY1718S2/website/issues">here</a>.</p>
     </tip-box>
-    <panel header="Using the textbook" expanded="">
+    <panel dynamic="" header="Using the textbook" expanded="">
       <div>
         <h3 id="browser-compatibility">Browser Compatibility</h3>
         <p>This book is best viewed using the <mark>Chrome browser</mark>.</p>
@@ -41,12 +41,12 @@
         <h3 id="information-layers">Information Layers</h3>
         <p>The book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
         <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
-        <panel header="%%Some less important info in a panel%%">
+        <panel dynamic="" header="%%Some less important info in a panel%%">
           <p>Less important info</p>
           <p></p>
         </panel>
         <p></p>
-        <panel header="%%Some less important info in a boarder-less panel%%" type="seamless">
+        <panel dynamic="" header="%%Some less important info in a boarder-less panel%%" type="seamless">
           <p>Less important info</p>
           <p></p>
         </panel>
@@ -84,9 +84,9 @@
     </panel>
   </div>
 </panel>
-<panel type="info" header="**More info about using this website** :star::star::star:" expandable="">
+<panel dynamic="" type="info" header="**More info about using this website** :star::star::star:" expandable="">
   <div>
-    <panel header="More info about using the textbook" expanded="">
+    <panel dynamic="" header="More info about using the textbook" expanded="">
       <div name="Conventions Used">
         <h3 id="conventions-used">Conventions Used</h3>
         <p>Meaning of some shortened headings:</p>
@@ -94,25 +94,25 @@
           <li>
             <p><strong>What</strong> : the <strong>meaning</strong> of the concept in concern</p>
             <p>
-              <panel header="%%Example%%" src="/website-base\book\refactoring\what\unit-inElsewhere-asFlat._include_.html"></panel>
+              <panel dynamic="" header="%%Example%%" src="/website-base\book\refactoring\what\unit-inElsewhere-asFlat._include_.html"></panel>
             </p>
           </li>
           <li>
             <p><strong>Why</strong> : the <strong>motivation</strong> behind the concept in concern</p>
             <p>
-              <panel header="%%Example%%" src="/website-base\book\documentation\guidelines\goTopDown\why\unit-inElsewhere-asFlat._include_.html"></panel>
+              <panel dynamic="" header="%%Example%%" src="/website-base\book\documentation\guidelines\goTopDown\why\unit-inElsewhere-asFlat._include_.html"></panel>
             </p>
           </li>
           <li>
             <p><strong>How</strong> : the <strong>usage</strong> of the concept in concern</p>
             <p>
-              <panel header="%%Example%%" src="/website-base\book\refactoring\how\unit-inElsewhere-asFlat._include_.html"></panel>
+              <panel dynamic="" header="%%Example%%" src="/website-base\book\refactoring\how\unit-inElsewhere-asFlat._include_.html"></panel>
             </p>
           </li>
           <li>
             <p><strong>When</strong> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
             <p>
-              <panel header="%%Example%%" src="/website-base\book\refactoring\when\unit-inElsewhere-asFlat._include_.html"></panel>
+              <panel dynamic="" header="%%Example%%" src="/website-base\book\refactoring\when\unit-inElsewhere-asFlat._include_.html"></panel>
             </p>
           </li>
         </ul>
@@ -182,7 +182,7 @@
         <p>The <span class="glyphicon glyphicon-print" aria-hidden="true"></span> icon indicates printer-friendly versions of each chapter. A printer-friendly version of the entire book can be found <a href="/website-base/book/common/print.html">here</a></p>
       </div>
     </panel>
-    <panel header="Additional conventions used in the website" expanded="">
+    <panel dynamic="" header="Additional conventions used in the website" expanded="">
       <p>In addition to following the conventions used in the textbook, the remainder of the website follows these conventions.</p>
       <p>Icons:</p>
       <ul>
@@ -195,7 +195,7 @@
     </panel>
   </div>
 </panel>
-<panel type="danger" header="**A typical CS2103/T week** :star:" expandable="">
+<panel dynamic="" type="danger" header="**A typical CS2103/T week** :star:" expandable="">
   <div>
     <p>📆 <strong>[Friday (previous week)]</strong><br></p>
     <p>Attend the lecture for,</p>
@@ -204,7 +204,7 @@
       <li>an introduction to the current week's LOs</li>
     </ul>
     <p>
-      <panel src="/website-base\admin\lectures._include_.html#main" type="info" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>%% Lectures :star::star::star:" fragment="main"></panel>
+      <panel dynamic="" src="/website-base\admin\lectures._include_.html#main" type="info" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>%% Lectures :star::star::star:" fragment="main"></panel>
     </p>
     <p></p>
     <p>📆 <strong>[Saturday (previous week) - Tuesday]</strong><br></p>
@@ -214,7 +214,7 @@
       <li>If you don't have time to achieve all LOs assigned to the week, use the star rating system to decide which ones to do first.</li>
     </ul>
     <p>
-      <panel src="/website-base\admin\learningOutcomes._include_.html#main" type="warning" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>%% Learning Outcomes :star::star:" fragment="main"></panel>
+      <panel dynamic="" src="/website-base\admin\learningOutcomes._include_.html#main" type="warning" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>%% Learning Outcomes :star::star:" fragment="main"></panel>
     </p>
     <p></p>
     <p>📆 <strong>[Wednesday - Friday]</strong><br></p>
@@ -224,7 +224,7 @@
       <li>learn from peer demos of their own LO evidence</li>
     </ul>
     <p>
-      <panel src="/website-base\admin\tutorials._include_.html#main" type="info" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>%% Tutorials :star::star::star:" fragment="main"></panel>
+      <panel dynamic="" src="/website-base\admin\tutorials._include_.html#main" type="info" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>%% Tutorials :star::star::star:" fragment="main"></panel>
     </p>
   </div>
 </panel>

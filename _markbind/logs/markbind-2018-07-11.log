@@ -1,2 +1,5 @@
-2018-07-11T02:32:53.158Z - warn: ENOENT: no such file or directory, open 'C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_site\book\_markbind\variables.md'
-2018-07-11T02:32:53.164Z - warn: ENOENT: no such file or directory, open 'C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_site\_markbind\variables.md'
+2018-07-11T03:36:27.117Z - info: Pages built
+2018-07-11T03:36:27.144Z - info: Site data built
+2018-07-11T03:36:27.154Z - info: Generate Site durationMs=37525
+2018-07-11T03:36:27.165Z - info: Serving "C:\Users\Tan Wang Leng\Documents\GitHub\yamgent\website-base\_site" at http://127.0.0.1:8080
+2018-07-11T03:36:27.166Z - info: Press CTRL+C to stop ...

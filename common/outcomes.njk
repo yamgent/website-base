@@ -84,7 +84,7 @@
 {% else %}
   {% set priority = unit.priority %}
 {% endif %}
-<panel type="{{ show_priority_style(priority) }}" expanded no-close >
+<panel dynamic type="{{ show_priority_style(priority) }}" expanded no-close >
 <span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#outcomes" inline/> {{ show_stars(priority) }}</md></span>
   <include src="{{ path_displacement }}../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
   {% if unit.omit_evidence %}
@@ -142,7 +142,7 @@
 {% set  prefix = "W" + params.week_num + "." + params.starting_index%}
 {% set letters = "abcdefghijklmnop" | list %}
 {% set letter_index = 0 %}
-<panel no-close >
+<panel dynamic no-close >
 <span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.outcome.heading }}** {{ show_stars(priority) }}</md> </span>
 {% if params.outcome.file %}
   <include src="{{ params.path_displacement }}../evidence/{{ params.outcome.file }}" />

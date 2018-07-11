@@ -218,10 +218,10 @@
           <h1 id="design-fundamentals">Design Fundamentals</h1>
         </div>
       </div>
-      <panel type="seamless" expanded="">
+      <panel dynamic="" type="seamless" expanded="">
         <span slot="header" class="panel-title"><div>
 <h2 id="abstraction">Abstraction</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
+        <panel dynamic="" type="seamless" header="#### What" expanded="">
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span></span></button>
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><span><span class="dimmed"><span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain abstraction</span></span></span></button>
@@ -254,10 +254,10 @@
           <div></div>
         </panel>
       </panel>
-      <panel type="seamless" expanded="">
+      <panel dynamic="" type="seamless" expanded="">
         <span slot="header" class="panel-title"><div>
 <h2 id="coupling">Coupling</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
+        <panel dynamic="" type="seamless" header="#### What" expanded="">
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span></span></button>
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><span><span class="dimmed"><span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain coupling</span></span></span></button>
@@ -277,9 +277,9 @@
           </div>
           <div>
             <div>
-              <panel header=":muscle: Exercises" expandable="">
+              <panel dynamic="" header=":muscle: Exercises" expandable="">
                 <div>
-                  <panel header=":lock::key: Coupling levels of alternative designs">
+                  <panel dynamic="" header=":lock::key: Coupling levels of alternative designs">
                     <question has-input="true">
                       <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                       <tip-box>
@@ -295,7 +295,7 @@
                   </panel>
                 </div>
                 <div>
-                  <panel header=":lock::key: regressions and coupling.">
+                  <panel dynamic="" header=":lock::key: regressions and coupling.">
                     <question has-input="true">
                       <p>Explain the link (if any) between regressions and coupling.</p>
                       <div slot="answer">
@@ -305,7 +305,7 @@
                   </panel>
                 </div>
                 <div>
-                  <panel header=":lock::key: Coupling and testability">
+                  <panel dynamic="" header=":lock::key: Coupling and testability">
                     <question has-input="true">
                       <p>Discuss the relationship between coupling and
                         <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
@@ -317,7 +317,7 @@
                   </panel>
                 </div>
                 <div>
-                  <panel header=":lock::key: Statements about coupling">
+                  <panel dynamic="" header=":lock::key: Statements about coupling">
                     <question>
                       <p>Choose the correct statements.</p>
                       <ul class="task-list">
@@ -338,7 +338,7 @@
             </div>
           </div>
         </panel>
-        <panel type="seamless" header="#### How" expanded="">
+        <panel dynamic="" type="seamless" header="#### How" expanded="">
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span></span></button>
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><span><span class="dimmed"><span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can reduce coupling</span></span></span></button>
@@ -348,7 +348,7 @@
             <tip-box>
               <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but
                 not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
-              <panel type="seamless" header="%%code for the above example%%">
+              <panel dynamic="" type="seamless" header="%%code for the above example%%">
                 <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     ...
     <span class="hljs-keyword">new</span> Bar().read();
@@ -381,9 +381,9 @@
           </div>
           <div>
             <div>
-              <panel header=":muscle: Exercises" expandable="">
+              <panel dynamic="" header=":muscle: Exercises" expandable="">
                 <div>
-                  <panel header=":lock::key: Which indicate coupling?">
+                  <panel dynamic="" header=":lock::key: Which indicate coupling?">
                     <question>
                       <p>Which of these indicate a coupling between components A and B?</p>
                       <ul class="task-list">
@@ -405,7 +405,7 @@
             </div>
           </div>
         </panel>
-        <panel type="seamless" header="#### Types of Coupling" expanded="">
+        <panel dynamic="" type="seamless" header="#### Types of Coupling" expanded="">
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></button>
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><span><span class="dimmed"><span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can identify types of coupling</span></span></span></button>
@@ -425,10 +425,10 @@
           <div></div>
         </panel>
       </panel>
-      <panel type="seamless" expanded="">
+      <panel dynamic="" type="seamless" expanded="">
         <span slot="header" class="panel-title"><div>
 <h2 id="cohesion">Cohesion</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
+        <panel dynamic="" type="seamless" header="#### What" expanded="">
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span></span></button>
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><span><span class="dimmed"><span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain cohesion</span></span></span></button>
@@ -445,7 +445,7 @@
           </div>
           <div></div>
         </panel>
-        <panel type="seamless" header="#### How" expanded="">
+        <panel dynamic="" type="seamless" header="#### How" expanded="">
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span></span></button>
           <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><span><span class="dimmed"><span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can increase cohesion</span></span></span></button>
@@ -464,9 +464,9 @@
           </div>
           <div>
             <div>
-              <panel header=":muscle: Exercises" expandable="">
+              <panel dynamic="" header=":muscle: Exercises" expandable="">
                 <div>
-                  <panel header=":lock::key: Which class is more cohesive?">
+                  <panel dynamic="" header=":lock::key: Which class is more cohesive?">
                     <question has-input="true">
                       <p>Compare the cohesion of the following two versions of the <code>EmailMessage</code> class. Which one is more cohesive and why?</p>
                       <pre><code class="hljs java"><span class="hljs-comment">// version-1</span>
@@ -528,7 +528,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.8.3</a> at Wed, 11 Jul 2018 02:33:06 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.8.3</a> at Wed, 11 Jul 2018 03:37:47 GMT</small></div>
 </footer>
 </div>
 </body>

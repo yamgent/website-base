@@ -9,7 +9,7 @@ siteNav: se-book-adapted-sitenav.md
 {% macro show_level_three(location, topic) %}
 {% set level_location =  location + "/" + topic.name %}
 {% set title =  "#### " + topic.heading %}
-<panel type="seamless" header="{{ title }}" expanded>
+<panel dynamic type="seamless" header="{{ title }}" expanded>
   <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
   <md>%%{{ show_priority(topic.priority) |safe }}%%</md></button>
   <button type="button" class="btn btn-default btn-sm" aria-label="Left Align"><md>%%<include src="{{ level_location }}/text.md#outcomes" inline />%%</md></button><p/>
@@ -23,7 +23,7 @@ siteNav: se-book-adapted-sitenav.md
 {% set level_location =  location + "/" + topic.name %}
 {% set level_is_empty =  (topic.name == "") %}
 {% if not level_is_empty %}
-  <panel type="seamless" expanded>
+  <panel dynamic type="seamless" expanded>
     <span slot="header" class="panel-title"><include src="{{ level_location }}/text.md#title"/></span>
 {% endif %}
   {% for sub_topic in topic.level_three_topics %}
@@ -41,7 +41,7 @@ siteNav: se-book-adapted-sitenav.md
 {% set level_location =  location + "/" + topic.name %}
 {% set level_is_empty =  (topic.name == "") %}
 {% if not level_is_empty %}
-<panel type="seamless" expanded>
+<panel dynamic type="seamless" expanded>
   <span slot="header" class="panel-title"><include src="{{ level_location }}/text.md#title" /></span>
 {% endif %}
   {% for sub_topic in topic.level_two_topics %}
