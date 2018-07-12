@@ -2,182 +2,84 @@
   "pages": [
     {
       "headings": {
-        "software-engineering-for-self-directed-learners": "Software Engineering for Self-Directed Learners",
-        "section-software-engineering": "SECTION: SOFTWARE ENGINEERING",
-        "software-engineering": "Software Engineering",
-        "introduction": "Introduction",
-        "section-object-oriented-programming-with-uml": "SECTION: OBJECT-ORIENTED PROGRAMMING (WITH UML)",
-        "oop-concepts": "OOP - Concepts",
-        "introduction-2": "Introduction",
-        "objects": "Objects",
-        "classes": "Classes",
-        "associations": "Associations",
-        "inheritance": "Inheritance",
-        "polymorphism": "Polymorphism",
-        "more": "More",
-        "oop-implementation": "OOP - Implementation",
-        "section-requirements": "SECTION: REQUIREMENTS",
-        "requirements": "Requirements",
-        "gathering-requirements": "Gathering Requirements",
-        "specifying-requirements": "Specifying Requirements",
-        "prose": "Prose",
-        "feature-lists": "Feature Lists",
-        "user-stories": "User Stories",
-        "use-cases": "Use Cases",
-        "glossary": "Glossary",
-        "supplementary-requirements": "Supplementary Requirements",
-        "section-design": "SECTION: DESIGN",
-        "software-design": "Software Design",
-        "introduction-7": "Introduction",
-        "design-fundamentals": "Design Fundamentals",
-        "abstraction": "Abstraction",
-        "coupling": "Coupling",
-        "cohesion": "Cohesion",
-        "modeling": "Modeling",
-        "introduction-8": "Introduction",
-        "modeling-structures": "Modeling Structures",
-        "modeling-behaviors": "Modeling Behaviors",
-        "modeling-a-solution": "Modeling a Solution",
-        "software-architecture": "Software Architecture",
-        "introduction-11": "Introduction",
-        "architecture-diagrams": "Architecture Diagrams",
-        "architectural-styles": "Architectural Styles",
-        "introduction-12": "Introduction",
-        "n-tier-architectural-style": "N-tier Architectural Style",
-        "client-server-architectural-style": "Client-server Architectural Style",
-        "transaction-processing-architectural-style": "Transaction Processing Architectural Style",
-        "service-oriented-architectural-style": "Service-oriented Architectural Style",
-        "event-driven-architectural-style": "Event-driven Architectural Style",
-        "more-2": "More",
-        "software-design-patterns": "Software Design Patterns",
-        "introduction-13": "Introduction",
-        "singleton-pattern": "Singleton Pattern",
-        "abstraction-occurrence-pattern": "Abstraction Occurrence Pattern",
-        "facade-pattern": "Facade Pattern",
-        "command-pattern": "Command Pattern",
-        "model-view-controller-mvc-pattern": "Model View Controller (MVC) Pattern",
-        "observer-pattern": "Observer Pattern",
-        "more-3": "More",
-        "design-approaches": "Design Approaches",
-        "multi-level-design": "Multi-Level Design",
-        "top-down-and-bottom-up-design": "Top-Down and Bottom-Up Design",
-        "agile-design": "Agile Design",
-        "section-implementation": "SECTION: IMPLEMENTATION",
-        "ides": "IDEs",
-        "introduction-14": "Introduction",
-        "debugging": "Debugging",
-        "code-quality": "Code Quality",
-        "introduction-15": "Introduction",
-        "guideline-maximise-readability": "Guideline: Maximise Readability",
-        "basic-3": "Basic",
-        "intermediate": "Intermediate",
-        "advanced": "Advanced",
-        "guideline-follow-a-standard": "Guideline: Follow a Standard",
-        "guideline-name-well": "Guideline: Name Well",
-        "basic-5": "Basic",
-        "intermediate-2": "Intermediate",
-        "guideline-avoid-unsafe-shortcuts": "Guideline: Avoid Unsafe Shortcuts",
-        "basic-6": "Basic",
-        "intermediate-3": "Intermediate",
-        "guideline-comment-minimally-but-sufficiently": "Guideline: Comment Minimally, but Sufficiently",
-        "basic-7": "Basic",
-        "intermediate-4": "Intermediate",
-        "refactoring": "Refactoring",
-        "documentation": "Documentation",
-        "introduction-21": "Introduction",
-        "guidelines": "Guidelines",
-        "guideline-go-top-down-not-bottom-up": "Guideline: Go Top-down, Not Bottom-up",
-        "guideline-aim-for-comprehensibility": "Guideline: Aim for Comprehensibility",
-        "guideline-document-minimally-but-sufficiently": "Guideline: Document Minimally, but Sufficiently",
-        "tools": "Tools",
-        "javadoc": "JavaDoc",
-        "markdown": "Markdown",
-        "asciidoc": "AsciiDoc",
-        "error-handling": "Error Handling",
-        "introduction-22": "Introduction",
-        "exceptions": "Exceptions",
-        "assertions": "Assertions",
-        "logging": "Logging",
-        "defensive-programming": "Defensive Programming",
-        "design-by-contract-approach": "Design-by-Contract Approach",
-        "integration": "Integration",
-        "introduction-23": "Introduction",
-        "approaches": "Approaches",
-        "build-automation": "Build Automation",
-        "approaches-2": "Approaches",
-        "reuse": "Reuse",
-        "introduction-24": "Introduction",
-        "apis": "APIs",
-        "libraries": "Libraries",
-        "frameworks": "Frameworks",
-        "platforms": "Platforms",
-        "cloud-computing": "Cloud Computing",
-        "section-quality-assurance": "SECTION: QUALITY ASSURANCE",
-        "quality-assurance": "Quality Assurance",
-        "introduction-25": "Introduction",
-        "code-reviews": "Code Reviews",
-        "static-analysis": "Static Analysis",
-        "formal-verification": "Formal Verification",
-        "testing": "Testing",
-        "introduction-26": "Introduction",
-        "testing-types": "Testing Types",
-        "unit-testing": "Unit Testing",
-        "integration-testing": "Integration Testing",
-        "system-testing": "System Testing",
-        "alpha-and-beta-testing": "Alpha and Beta Testing",
-        "dogfooding": "Dogfooding",
-        "developer-testing": "Developer Testing",
-        "exploratory-vs-scripted-testing": "Exploratory vs Scripted Testing",
-        "acceptance-testing": "Acceptance Testing",
-        "regression-testing": "Regression Testing",
-        "test-automation": "Test Automation",
-        "test-coverage": "Test Coverage",
-        "dependency-injection": "Dependency Injection",
-        "tdd": "TDD",
-        "test-case-design": "Test Case Design",
-        "introduction-27": "Introduction",
-        "equivalence-partitions": "Equivalence Partitions",
-        "boundary-value-analysis": "Boundary Value Analysis",
-        "combining-test-inputs": "Combining Test Inputs",
-        "more-4": "More",
-        "recap": "Recap",
-        "section-project-management": "SECTION: PROJECT MANAGEMENT",
-        "revision-control": "Revision Control",
-        "project-planning": "Project Planning",
-        "teamwork": "Teamwork",
-        "sdlc-process-models": "SDLC Process Models",
-        "introduction-28": "Introduction",
-        "example-process-models": "Example Process Models",
-        "more-5": "More",
-        "summary": "Summary",
-        "section-tools": "SECTION: TOOLS",
-        "uml": "UML",
-        "class-diagrams": "Class Diagrams",
-        "introduction-29": "Introduction",
-        "classes-2": "Classes",
-        "associations-2": "Associations",
-        "dependencies-2": "Dependencies",
-        "associations-as-attributes": "Associations as Attributes",
-        "enumerations-2": "Enumerations",
-        "class-level-members-2": "Class Level Members",
-        "association-classes": "Association Classes",
-        "composition-2": "Composition",
-        "aggregation-2": "Aggregation",
-        "class-inheritance": "Class Inheritance",
-        "interfaces-2": "Interfaces",
-        "abstract-classes-2": "Abstract Classes",
-        "sequence-diagrams": "Sequence Diagrams",
-        "object-diagrams-2": "Object Diagrams",
-        "activity-diagrams-2": "Activity Diagrams",
-        "introduction-32": "Introduction",
-        "basic-notations": "Basic Notations",
-        "notes": "Notes",
-        "miscellaneous-2": "Miscellaneous",
-        "intellij-idea": "Intellij IDEA",
-        "git-and-github": "Git and Github",
-        "java": "Java",
+        "full-schedule-of-module-activities": "Full Schedule of Module Activities"
+      },
+      "title": "Home",
+      "footer": "footer.md",
+      "src": "index.md"
+    },
+    {
+      "headings": {
+        "full-schedule-of-module-activities": "Full Schedule of Module Activities"
+      },
+      "title": "Full Schedule of Module Activities",
+      "footer": "footer.md",
+      "src": "schedule/index.md"
+    },
+    {
+      "headings": {
+        "browser-compatibility": "Browser Compatibility",
+        "information-layers": "Information Layers",
+        "conventions-used": "Conventions Used",
+        "searching": "Searching",
+        "saving-as-pdf-files": "Saving as PDF Files",
+        "printing": "Printing"
+      },
+      "src": "schedule/overview/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week1/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week10/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week11/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week12/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week13/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week2/index.md",
+      "title": ""
+    },
+    {
+      "headings": {
+        "participation-marks": "Participation Marks"
+      },
+      "src": "schedule/week3/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week4/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week5/index.md",
+      "title": ""
+    },
+    {
+      "headings": {
+        "v11-product": "v1.1 Product",
         "javafx-8-tutorial-part-1-scene-builder": "JavaFx 8 Tutorial - Part 1: Scene Builder",
-        "introduction-34": "Introduction",
+        "introduction-2": "Introduction",
         "prerequisites": "Prerequisites",
         "intellij-configurations": "IntelliJ Configurations",
         "configuring-jdk-8": "Configuring JDK 8",
@@ -190,7 +92,7 @@
         "the-javafx-main-class": "The JavaFX Main Class",
         "possible-issues": "Possible Issues",
         "javafx-8-tutorial-part-2-model-and-tableview": "JavaFx 8 tutorial - Part 2: Model and TableView",
-        "introduction-35": "Introduction",
+        "introduction-3": "Introduction",
         "create-the-model-class": "Create the Model class",
         "explanations": "Explanations",
         "a-list-of-persons": "A List of Persons",
@@ -199,146 +101,25 @@
         "explanations-2": "Explanations",
         "connecting-mainapp-with-the-personoverviewcontroller": "Connecting MainApp with the PersonOverviewController",
         "hook-the-view-to-the-controller": "Hook the View to the controller",
-        "start-the-application": "Start the Application",
-        "junit": "JUnit",
-        "section-principles": "SECTION: PRINCIPLES",
-        "principles": "Principles"
+        "start-the-application": "Start the Application"
       },
-      "title": "Software Engineering for Self-Directed Learners [Printable Version for CS2103/T]",
-      "footer": "footer.md",
-      "src": "se-book-adapted/print.md"
+      "src": "schedule/week6/index.md",
+      "title": ""
     },
     {
-      "headings": {
-        "cs2103t-at-a-glance": "CS2103/T at a Glance",
-        "learning-outcomes": "Learning Outcomes",
-        "lectures": "Lectures",
-        "tutorials": "Tutorials",
-        "text-books": "Text Books",
-        "programming-language": "Programming Language",
-        "project-overview": "Project → Overview",
-        "project-the-product": "Project → The Product",
-        "project-scope": "Project → Scope",
-        "project-constraints": "Project → Constraints",
-        "project-timeline": "Project → Timeline",
-        "project-inception-week-3": "Project → inception [week 3]",
-        "project-mid-v10-week-4": "Project → mid-v1.0 [week 4]",
-        "project-v10-week-5": "Project → v1.0 [week 5]",
-        "v10-documentation": "v1.0 Documentation",
-        "v10-project-management": "v1.0 Project Management",
-        "project-mid-v11-week-6": "Project → mid-v1.1 [week 6]",
-        "organization-setup": "Organization setup",
-        "repo-setup": "Repo setup",
-        "project-v11-week-7": "Project → v1.1 [week 7]",
-        "v11-project-management": "v1.1 Project Management",
-        "v11-documentation": "v1.1 Documentation",
-        "v11-product": "v1.1 Product",
-        "project-mid-v12-week-8": "Project → mid-v1.2 [week 8]",
-        "project-schedule-tracking": "Project Schedule Tracking",
-        "using-issues": "Using Issues:",
-        "using-milestones": "Using Milestones:",
-        "project-v12-week-9": "Project → v1.2 [week 9]",
-        "v12-project-management": "v1.2 Project Management",
-        "v12-product": "v1.2 Product",
-        "v12-documentation": "v1.2 Documentation",
-        "v12-demo": "v1.2 Demo",
-        "project-mid-v13-week-10": "Project → mid-v1.3 [week 10]",
-        "project-v13-week-11": "Project → v1.3 [week 11]",
-        "v13-project-management": "v1.3 Project Management",
-        "v13-product": "v1.3 Product",
-        "v13-documentation": "v1.3 Documentation",
-        "v13-demo": "v1.3 Demo",
-        "v13-testing": "v1.3 Testing",
-        "project-v14-week-13": "Project → v1.4 [week 13]",
-        "v14-product": "v1.4 Product",
-        "v14-source-code": "v1.4 Source Code",
-        "v14-user-guide": "v1.4 User Guide",
-        "v14-developer-guide": "v1.4 Developer Guide",
-        "v14-product-website": "v1.4 Product Website",
-        "v14-demo": "v1.4 Demo",
-        "v14-practical-exam": "v1.4 Practical Exam",
-        "project-deliverables": "Project → Deliverables",
-        "deliverable-executable": "Deliverable: Executable",
-        "deliverable-source-code": "Deliverable: Source code",
-        "deliverable-user-guide-ug": "Deliverable: User Guide (UG)",
-        "deliverable-developer-guide-ug": "Deliverable: Developer Guide (UG)",
-        "deliverable-product-website": "Deliverable: Product Website",
-        "deliverable-project-portfolio-page-ppp": "Deliverable: Project Portfolio Page (PPP)",
-        "deliverable-demo": "Deliverable: Demo",
-        "deliverable-practical-exam": "Deliverable: Practical Exam",
-        "project-assessment": "Project → Assessment",
-        "code-quality": "Code Quality",
-        "introduction-2": "Introduction",
-        "guideline-maximise-readability": "Guideline: Maximise Readability",
-        "basic-2": "Basic",
-        "intermediate": "Intermediate",
-        "advanced": "Advanced",
-        "guideline-follow-a-standard": "Guideline: Follow a Standard",
-        "guideline-name-well": "Guideline: Name Well",
-        "basic-4": "Basic",
-        "intermediate-3": "Intermediate",
-        "guideline-avoid-unsafe-shortcuts": "Guideline: Avoid Unsafe Shortcuts",
-        "basic-5": "Basic",
-        "intermediate-4": "Intermediate",
-        "guideline-comment-minimally-but-sufficiently": "Guideline: Comment Minimally, but Sufficiently",
-        "basic-6": "Basic",
-        "intermediate-5": "Intermediate",
-        "supervision": "Supervision",
-        "forming-teams": "Forming Teams",
-        "peer-evaluations": "Peer Evaluations",
-        "tools": "Tools",
-        "grade-breakdown": "Grade Breakdown",
-        "exams": "Exams",
-        "final-exam-part-1-mcq": "Final Exam: Part 1 (MCQ)",
-        "final-exam-part-2-essay": "Final Exam: Part 2 (Essay)",
-        "participation-marks": "Participation Marks",
-        "appendix-a-module-principles": "Appendix A: Module Principles",
-        "appendix-b-module-policies": "Appendix B: Module Policies",
-        "policy-on-following-instructions": "Policy on following instructions",
-        "policy-on-grading-smallerlarger-teams": "Policy on grading smaller/larger teams",
-        "policy-on-project-work-distribution": "Policy on project work distribution",
-        "policy-on-absence-due-to-valid-reasons-eg-mc-loa-university-events": "Policy on absence due to valid reasons (e.g. MC, LOA, University events)",
-        "policy-on-email-response-time": "Policy on email response time",
-        "policy-on-tech-help": "Policy on tech help",
-        "policy-on-publishing-submissions": "Policy on publishing submissions",
-        "policy-on-plagiarism": "Policy on plagiarism",
-        "policy-on-reuse": "Policy on reuse",
-        "policy-on-help-from-outsiders": "Policy on help from outsiders",
-        "policy-on-suggested-length-for-submissions": "Policy on suggested length for submissions",
-        "appendix-c-frequently-asked-questions": "Appendix C: Frequently Asked Questions",
-        "where-is-everything": "Where is everything?",
-        "what-are-the-differences-between-cs2103-and-cs2103t": "What are the differences between CS2103 and CS2103T?",
-        "why-the-workload-is-so-high": "Why the workload is so high?",
-        "what-are-the-extra-requirements-to-get-an-a": "What are the extra requirements to get an A+?",
-        "why-so-much-bean-counting": "Why so much bean counting?",
-        "why-you-force-me-to-visit-a-separate-website-instead-of-using-ivle": "Why you force me to visit a separate website instead of using IVLE?",
-        "why-slides-are-not-detailed": "Why slides are not detailed?",
-        "why-so-much-self-study": "Why so much self-study?",
-        "what-if-i-dont-carry-around-a-laptop": "What if I don't carry around a laptop?",
-        "why-very-narrow-project-scope": "Why very narrow project scope?",
-        "why-project-requirements-are-so-vague": "Why project requirements are so vague?",
-        "why-im-not-allowed-to-use-my-favorite-toolframeworklanguage-etc": "Why I'm not allowed to use my favorite tool/framework/language etc.?",
-        "why-so-many-submissions": "Why so many submissions?",
-        "why-arent-we-allowed-to-build-a-new-product-from-scratch": "Why aren't we allowed to build a new product from scratch?",
-        "why-submission-requirements-differ-between-cs2103t-and-cs2101": "Why submission requirements differ between CS2103T and CS2101?",
-        "appendix-d-how-to-get-help-in-cs2103t": "Appendix D: How to get help in CS2103/T",
-        "appendix-e-using-github-project-hosting": "Appendix E: Using GitHub Project Hosting",
-        "create-a-github-profile": "Create a GitHub profile",
-        "setting-git-username-to-match-github-username": "Setting Git Username to Match GitHub Username",
-        "submitting-pull-requests-as-evidence-of-an-lo": "Submitting Pull Requests as evidence of an LO",
-        "organization-setup-2": "Organization setup",
-        "repo-setup-2": "Repo setup",
-        "issue-tracker-setup": "Issue tracker setup",
-        "project-schedule-tracking-2": "Project Schedule Tracking",
-        "using-issues-2": "Using Issues:",
-        "using-milestones-2": "Using Milestones:",
-        "workflow": "Workflow",
-        "appendix-f-handling-teamwork-issues": "Appendix F: Handling teamwork issues"
-      },
-      "title": "Admin (All admin info in one page!)",
-      "footer": "footer.md",
-      "siteNav": "adminSiteNav-flat.md",
-      "src": "admin/index-flat.md"
+      "headings": {},
+      "src": "schedule/week7/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week8/index.md",
+      "title": ""
+    },
+    {
+      "headings": {},
+      "src": "schedule/week9/index.md",
+      "title": ""
     },
     {
       "headings": {
@@ -848,79 +629,9 @@
     },
     {
       "headings": {
-        "acknowledgements": "Acknowledgements"
-      },
-      "title": "About: Acknowledgements",
-      "src": "book/about/acknowledgements.md"
-    },
-    {
-      "headings": {
-        "using-this-book": "Using This Book",
-        "browser-compatibility": "Browser Compatibility",
-        "information-layers": "Information Layers",
-        "conventions-used": "Conventions Used",
-        "searching": "Searching",
-        "saving-as-pdf-files": "Saving as PDF Files",
-        "printing": "Printing"
-      },
-      "title": "About: Usage",
-      "src": "book/about/usage.md"
-    },
-    {
-      "headings": {
-        "combined-exercises": "Combined Exercises"
-      },
-      "src": "book/combined/exercises.md",
-      "title": ""
-    },
-    {
-      "headings": {
-        "full-schedule-of-module-activities": "Full Schedule of Module Activities"
-      },
-      "title": "Home",
-      "footer": "footer.md",
-      "src": "index.md"
-    },
-    {
-      "headings": {
-        "full-schedule-of-module-activities": "Full Schedule of Module Activities"
-      },
-      "title": "Full Schedule of Module Activities",
-      "footer": "footer.md",
-      "src": "schedule/index.md"
-    },
-    {
-      "headings": {
-        "browser-compatibility": "Browser Compatibility",
-        "information-layers": "Information Layers",
-        "conventions-used": "Conventions Used",
-        "searching": "Searching",
-        "saving-as-pdf-files": "Saving as PDF Files",
-        "printing": "Printing"
-      },
-      "src": "schedule/overview/index.md",
-      "title": ""
-    },
-    {
-      "headings": {},
-      "src": "schedule/week1/index.md",
-      "title": ""
-    },
-    {
-      "headings": {},
-      "src": "schedule/week10/index.md",
-      "title": ""
-    },
-    {
-      "headings": {
         "week-10-outcomes": "Week 10 - Outcomes"
       },
       "src": "schedule/week10/outcomes.md",
-      "title": ""
-    },
-    {
-      "headings": {},
-      "src": "schedule/week11/index.md",
       "title": ""
     },
     {
@@ -931,11 +642,6 @@
       "title": ""
     },
     {
-      "headings": {},
-      "src": "schedule/week12/index.md",
-      "title": ""
-    },
-    {
       "headings": {
         "week-12-outcomes": "Week 12 - Outcomes"
       },
@@ -943,20 +649,10 @@
       "title": ""
     },
     {
-      "headings": {},
-      "src": "schedule/week13/index.md",
-      "title": ""
-    },
-    {
       "headings": {
         "week-13-outcomes": "Week 13 - Outcomes"
       },
       "src": "schedule/week13/outcomes.md",
-      "title": ""
-    },
-    {
-      "headings": {},
-      "src": "schedule/week2/index.md",
       "title": ""
     },
     {
@@ -968,22 +664,10 @@
     },
     {
       "headings": {
-        "participation-marks": "Participation Marks"
-      },
-      "src": "schedule/week3/index.md",
-      "title": ""
-    },
-    {
-      "headings": {
         "week-3-outcomes": "Week 3 - Outcomes",
         "participation-marks": "Participation Marks"
       },
       "src": "schedule/week3/outcomes.md",
-      "title": ""
-    },
-    {
-      "headings": {},
-      "src": "schedule/week4/index.md",
       "title": ""
     },
     {
@@ -994,46 +678,10 @@
       "title": ""
     },
     {
-      "headings": {},
-      "src": "schedule/week5/index.md",
-      "title": ""
-    },
-    {
       "headings": {
         "week-5-outcomes": "Week 5 - Outcomes"
       },
       "src": "schedule/week5/outcomes.md",
-      "title": ""
-    },
-    {
-      "headings": {
-        "v11-product": "v1.1 Product",
-        "javafx-8-tutorial-part-1-scene-builder": "JavaFx 8 Tutorial - Part 1: Scene Builder",
-        "introduction-2": "Introduction",
-        "prerequisites": "Prerequisites",
-        "intellij-configurations": "IntelliJ Configurations",
-        "configuring-jdk-8": "Configuring JDK 8",
-        "configuring-scene-builder": "Configuring Scene Builder",
-        "create-a-new-javafx-project": "Create a new JavaFX Project",
-        "create-the-packages": "Create the Packages",
-        "create-the-fxml-layout-file": "Create the FXML Layout File",
-        "design-with-scene-builder": "Design with Scene Builder",
-        "create-the-main-application": "Create the Main Application",
-        "the-javafx-main-class": "The JavaFX Main Class",
-        "possible-issues": "Possible Issues",
-        "javafx-8-tutorial-part-2-model-and-tableview": "JavaFx 8 tutorial - Part 2: Model and TableView",
-        "introduction-3": "Introduction",
-        "create-the-model-class": "Create the Model class",
-        "explanations": "Explanations",
-        "a-list-of-persons": "A List of Persons",
-        "observablelist": "ObservableList",
-        "the-personoverviewcontroller": "The PersonOverviewController",
-        "explanations-2": "Explanations",
-        "connecting-mainapp-with-the-personoverviewcontroller": "Connecting MainApp with the PersonOverviewController",
-        "hook-the-view-to-the-controller": "Hook the View to the controller",
-        "start-the-application": "Start the Application"
-      },
-      "src": "schedule/week6/index.md",
       "title": ""
     },
     {
@@ -1069,11 +717,6 @@
       "title": ""
     },
     {
-      "headings": {},
-      "src": "schedule/week7/index.md",
-      "title": ""
-    },
-    {
       "headings": {
         "week-7-outcomes": "Week 7 - Outcomes"
       },
@@ -1081,20 +724,10 @@
       "title": ""
     },
     {
-      "headings": {},
-      "src": "schedule/week8/index.md",
-      "title": ""
-    },
-    {
       "headings": {
         "week-8-outcomes": "Week 8 - Outcomes"
       },
       "src": "schedule/week8/outcomes.md",
-      "title": ""
-    },
-    {
-      "headings": {},
-      "src": "schedule/week9/index.md",
       "title": ""
     },
     {
@@ -1106,418 +739,32 @@
     },
     {
       "headings": {
-        "software-architecture": "Software Architecture",
-        "introduction": "Introduction",
-        "architecture-diagrams": "Architecture Diagrams",
-        "architectural-styles": "Architectural Styles",
-        "introduction-2": "Introduction",
-        "n-tier-architectural-style": "N-tier Architectural Style",
-        "client-server-architectural-style": "Client-server Architectural Style",
-        "transaction-processing-architectural-style": "Transaction Processing Architectural Style",
-        "service-oriented-architectural-style": "Service-oriented Architectural Style",
-        "event-driven-architectural-style": "Event-driven Architectural Style",
-        "more": "More"
+        "acknowledgements": "Acknowledgements"
       },
-      "title": "Text Book Chapter [Printable] : Software Architecture",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/architecture-printable.md"
+      "title": "About: Acknowledgements",
+      "src": "book/about/acknowledgements.md"
     },
     {
       "headings": {
-        "code-quality": "Code Quality",
-        "introduction": "Introduction",
-        "guideline-maximise-readability": "Guideline: Maximise Readability",
-        "basic-2": "Basic",
-        "intermediate": "Intermediate",
-        "advanced": "Advanced",
-        "guideline-follow-a-standard": "Guideline: Follow a Standard",
-        "guideline-name-well": "Guideline: Name Well",
-        "basic-4": "Basic",
-        "intermediate-2": "Intermediate",
-        "guideline-avoid-unsafe-shortcuts": "Guideline: Avoid Unsafe Shortcuts",
-        "basic-5": "Basic",
-        "intermediate-3": "Intermediate",
-        "guideline-comment-minimally-but-sufficiently": "Guideline: Comment Minimally, but Sufficiently",
-        "basic-6": "Basic",
-        "intermediate-4": "Intermediate"
+        "using-this-book": "Using This Book",
+        "browser-compatibility": "Browser Compatibility",
+        "information-layers": "Information Layers",
+        "conventions-used": "Conventions Used",
+        "searching": "Searching",
+        "saving-as-pdf-files": "Saving as PDF Files",
+        "printing": "Printing"
       },
-      "title": "Text Book Chapter [Printable] : Code Quality",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/codeQuality-printable.md"
+      "title": "About: Usage",
+      "src": "book/about/usage.md"
     },
     {
       "headings": {
-        "software-design": "Software Design",
-        "introduction": "Introduction"
+        "software-engineering-for-self-directed-learners": "Software Engineering for Self-Directed Learners"
       },
-      "title": "Text Book Chapter [Printable] : Software Design",
+      "title": "Software Engineering for Self-Directed Learners [CS2103/T Version]",
       "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/design-printable.md"
-    },
-    {
-      "headings": {
-        "design-approaches": "Design Approaches",
-        "multi-level-design": "Multi-Level Design",
-        "top-down-and-bottom-up-design": "Top-Down and Bottom-Up Design",
-        "agile-design": "Agile Design"
-      },
-      "title": "Text Book Chapter [Printable] : Design Approaches",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/designApproaches-printable.md"
-    },
-    {
-      "headings": {
-        "design-fundamentals": "Design Fundamentals",
-        "abstraction": "Abstraction",
-        "coupling": "Coupling",
-        "cohesion": "Cohesion"
-      },
-      "title": "Text Book Chapter [Printable] : Design Fundamentals",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/designFundamentals-printable.md"
-    },
-    {
-      "headings": {
-        "software-design-patterns": "Software Design Patterns",
-        "introduction": "Introduction",
-        "singleton-pattern": "Singleton Pattern",
-        "abstraction-occurrence-pattern": "Abstraction Occurrence Pattern",
-        "facade-pattern": "Facade Pattern",
-        "command-pattern": "Command Pattern",
-        "model-view-controller-mvc-pattern": "Model View Controller (MVC) Pattern",
-        "observer-pattern": "Observer Pattern",
-        "more": "More"
-      },
-      "title": "Text Book Chapter [Printable] : Software Design Patterns",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/designPatterns-printable.md"
-    },
-    {
-      "headings": {
-        "documentation": "Documentation",
-        "introduction": "Introduction",
-        "guidelines": "Guidelines",
-        "guideline-go-top-down-not-bottom-up": "Guideline: Go Top-down, Not Bottom-up",
-        "guideline-aim-for-comprehensibility": "Guideline: Aim for Comprehensibility",
-        "guideline-document-minimally-but-sufficiently": "Guideline: Document Minimally, but Sufficiently",
-        "tools": "Tools",
-        "javadoc": "JavaDoc",
-        "markdown": "Markdown",
-        "asciidoc": "AsciiDoc"
-      },
-      "title": "Text Book Chapter [Printable] : Documentation",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/documentation-printable.md"
-    },
-    {
-      "headings": {
-        "error-handling": "Error Handling",
-        "introduction": "Introduction",
-        "exceptions": "Exceptions",
-        "assertions": "Assertions",
-        "logging": "Logging",
-        "defensive-programming": "Defensive Programming",
-        "design-by-contract-approach": "Design-by-Contract Approach"
-      },
-      "title": "Text Book Chapter [Printable] : Error Handling",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/errorHandling-printable.md"
-    },
-    {
-      "headings": {
-        "gathering-requirements": "Gathering Requirements"
-      },
-      "title": "Text Book Chapter [Printable] : Gathering Requirements",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/gatheringRequirements-printable.md"
-    },
-    {
-      "headings": {
-        "git-and-github": "Git and Github"
-      },
-      "title": "Text Book Chapter [Printable] : Git and Github",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/gitAndGithub-printable.md"
-    },
-    {
-      "headings": {
-        "ides": "IDEs",
-        "introduction": "Introduction",
-        "debugging": "Debugging"
-      },
-      "title": "Text Book Chapter [Printable] : IDEs",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/ides-printable.md"
-    },
-    {
-      "headings": {
-        "integration": "Integration",
-        "introduction": "Introduction",
-        "approaches": "Approaches",
-        "build-automation": "Build Automation",
-        "approaches-2": "Approaches"
-      },
-      "title": "Text Book Chapter [Printable] : Integration",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/integration-printable.md"
-    },
-    {
-      "headings": {
-        "intellij-idea": "Intellij IDEA"
-      },
-      "title": "Text Book Chapter [Printable] : Intellij IDEA",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/intellij-printable.md"
-    },
-    {
-      "headings": {
-        "java": "Java",
-        "javafx-8-tutorial-part-1-scene-builder": "JavaFx 8 Tutorial - Part 1: Scene Builder",
-        "introduction": "Introduction",
-        "prerequisites": "Prerequisites",
-        "intellij-configurations": "IntelliJ Configurations",
-        "configuring-jdk-8": "Configuring JDK 8",
-        "configuring-scene-builder": "Configuring Scene Builder",
-        "create-a-new-javafx-project": "Create a new JavaFX Project",
-        "create-the-packages": "Create the Packages",
-        "create-the-fxml-layout-file": "Create the FXML Layout File",
-        "design-with-scene-builder": "Design with Scene Builder",
-        "create-the-main-application": "Create the Main Application",
-        "the-javafx-main-class": "The JavaFX Main Class",
-        "possible-issues": "Possible Issues",
-        "javafx-8-tutorial-part-2-model-and-tableview": "JavaFx 8 tutorial - Part 2: Model and TableView",
-        "introduction-2": "Introduction",
-        "create-the-model-class": "Create the Model class",
-        "explanations": "Explanations",
-        "a-list-of-persons": "A List of Persons",
-        "observablelist": "ObservableList",
-        "the-personoverviewcontroller": "The PersonOverviewController",
-        "explanations-2": "Explanations",
-        "connecting-mainapp-with-the-personoverviewcontroller": "Connecting MainApp with the PersonOverviewController",
-        "hook-the-view-to-the-controller": "Hook the View to the controller",
-        "start-the-application": "Start the Application"
-      },
-      "title": "Text Book Chapter [Printable] : Java",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/javaTools-printable.md"
-    },
-    {
-      "headings": {
-        "junit": "JUnit"
-      },
-      "title": "Text Book Chapter [Printable] : JUnit",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/junit-printable.md"
-    },
-    {
-      "headings": {
-        "modeling": "Modeling",
-        "introduction": "Introduction",
-        "modeling-structures": "Modeling Structures",
-        "modeling-behaviors": "Modeling Behaviors",
-        "modeling-a-solution": "Modeling a Solution"
-      },
-      "title": "Text Book Chapter [Printable] : Modeling",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/modeling-printable.md"
-    },
-    {
-      "headings": {
-        "oop-concepts": "OOP - Concepts",
-        "introduction": "Introduction",
-        "objects": "Objects",
-        "classes": "Classes",
-        "associations": "Associations",
-        "inheritance": "Inheritance",
-        "polymorphism": "Polymorphism",
-        "more": "More"
-      },
-      "title": "Text Book Chapter [Printable] : OOP - Concepts",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/oopDesign-printable.md"
-    },
-    {
-      "headings": {
-        "oop-implementation": "OOP - Implementation"
-      },
-      "title": "Text Book Chapter [Printable] : OOP - Implementation",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/oopImplementation-printable.md"
-    },
-    {
-      "headings": {
-        "principles": "Principles"
-      },
-      "title": "Text Book Chapter [Printable] : Principles",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/principles-printable.md"
-    },
-    {
-      "headings": {
-        "sdlc-process-models": "SDLC Process Models",
-        "introduction": "Introduction",
-        "example-process-models": "Example Process Models",
-        "more": "More",
-        "summary": "Summary"
-      },
-      "title": "Text Book Chapter [Printable] : SDLC Process Models",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/processModels-printable.md"
-    },
-    {
-      "headings": {
-        "project-planning": "Project Planning"
-      },
-      "title": "Text Book Chapter [Printable] : Project Planning",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/projectPlanning-printable.md"
-    },
-    {
-      "headings": {
-        "quality-assurance": "Quality Assurance",
-        "introduction": "Introduction",
-        "code-reviews": "Code Reviews",
-        "static-analysis": "Static Analysis",
-        "formal-verification": "Formal Verification"
-      },
-      "title": "Text Book Chapter [Printable] : Quality Assurance",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/qualityAssurance-printable.md"
-    },
-    {
-      "headings": {
-        "refactoring": "Refactoring"
-      },
-      "title": "Text Book Chapter [Printable] : Refactoring",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/refactoring-printable.md"
-    },
-    {
-      "headings": {
-        "requirements": "Requirements"
-      },
-      "title": "Text Book Chapter [Printable] : Requirements",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/requirements-printable.md"
-    },
-    {
-      "headings": {
-        "reuse": "Reuse",
-        "introduction": "Introduction",
-        "apis": "APIs",
-        "libraries": "Libraries",
-        "frameworks": "Frameworks",
-        "platforms": "Platforms",
-        "cloud-computing": "Cloud Computing"
-      },
-      "title": "Text Book Chapter [Printable] : Reuse",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/reuse-printable.md"
-    },
-    {
-      "headings": {
-        "revision-control": "Revision Control"
-      },
-      "title": "Text Book Chapter [Printable] : Revision Control",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/revisionControl-printable.md"
-    },
-    {
-      "headings": {
-        "software-engineering": "Software Engineering",
-        "introduction": "Introduction"
-      },
-      "title": "Text Book Chapter [Printable] : Software Engineering",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/softwareEngineering-printable.md"
-    },
-    {
-      "headings": {
-        "specifying-requirements": "Specifying Requirements",
-        "prose": "Prose",
-        "feature-lists": "Feature Lists",
-        "user-stories": "User Stories",
-        "use-cases": "Use Cases",
-        "glossary": "Glossary",
-        "supplementary-requirements": "Supplementary Requirements"
-      },
-      "title": "Text Book Chapter [Printable] : Specifying Requirements",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/specifyingRequirements-printable.md"
-    },
-    {
-      "headings": {
-        "teamwork": "Teamwork"
-      },
-      "title": "Text Book Chapter [Printable] : Teamwork",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/teamwork-printable.md"
-    },
-    {
-      "headings": {
-        "test-case-design": "Test Case Design",
-        "introduction": "Introduction",
-        "equivalence-partitions": "Equivalence Partitions",
-        "boundary-value-analysis": "Boundary Value Analysis",
-        "combining-test-inputs": "Combining Test Inputs",
-        "more": "More",
-        "recap": "Recap"
-      },
-      "title": "Text Book Chapter [Printable] : Test Case Design",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/testCaseDesign-printable.md"
-    },
-    {
-      "headings": {
-        "testing": "Testing",
-        "introduction": "Introduction",
-        "testing-types": "Testing Types",
-        "unit-testing": "Unit Testing",
-        "integration-testing": "Integration Testing",
-        "system-testing": "System Testing",
-        "alpha-and-beta-testing": "Alpha and Beta Testing",
-        "dogfooding": "Dogfooding",
-        "developer-testing": "Developer Testing",
-        "exploratory-vs-scripted-testing": "Exploratory vs Scripted Testing",
-        "acceptance-testing": "Acceptance Testing",
-        "regression-testing": "Regression Testing",
-        "test-automation": "Test Automation",
-        "test-coverage": "Test Coverage",
-        "dependency-injection": "Dependency Injection",
-        "tdd": "TDD"
-      },
-      "title": "Text Book Chapter [Printable] : Testing",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/testing-printable.md"
-    },
-    {
-      "headings": {
-        "uml": "UML",
-        "class-diagrams": "Class Diagrams",
-        "introduction": "Introduction",
-        "classes": "Classes",
-        "associations": "Associations",
-        "dependencies": "Dependencies",
-        "associations-as-attributes": "Associations as Attributes",
-        "enumerations": "Enumerations",
-        "class-level-members": "Class Level Members",
-        "association-classes": "Association Classes",
-        "composition": "Composition",
-        "aggregation": "Aggregation",
-        "class-inheritance": "Class Inheritance",
-        "interfaces": "Interfaces",
-        "abstract-classes": "Abstract Classes",
-        "sequence-diagrams": "Sequence Diagrams",
-        "object-diagrams": "Object Diagrams",
-        "activity-diagrams": "Activity Diagrams",
-        "introduction-4": "Introduction",
-        "basic-notations": "Basic Notations",
-        "notes": "Notes",
-        "miscellaneous": "Miscellaneous"
-      },
-      "title": "Text Book Chapter [Printable] : UML",
-      "footer": "footer.md",
-      "src": "se-book-adapted/chapters-printable/uml-printable.md"
+      "siteNav": "se-book-adapted-sitenav.md",
+      "src": "se-book-adapted/index.md"
     },
     {
       "headings": {
@@ -1754,7 +1001,7 @@
     },
     {
       "headings": {
-        "oop-concepts": "OOP - Concepts",
+        "object-oriented-programming": "Object-Oriented Programming",
         "introduction": "Introduction",
         "objects": "Objects",
         "classes": "Classes",
@@ -1763,19 +1010,10 @@
         "polymorphism": "Polymorphism",
         "more": "More"
       },
-      "title": "Text Book Chapter : OOP - Concepts",
+      "title": "Text Book Chapter : Object-Oriented Programming",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
-      "src": "se-book-adapted/chapters/oopDesign.md"
-    },
-    {
-      "headings": {
-        "oop-implementation": "OOP - Implementation"
-      },
-      "title": "Text Book Chapter : OOP - Implementation",
-      "footer": "footer.md",
-      "siteNav": "se-book-adapted-sitenav.md",
-      "src": "se-book-adapted/chapters/oopImplementation.md"
+      "src": "se-book-adapted/chapters/oop.md"
     },
     {
       "headings": {
@@ -2004,12 +1242,10 @@
     },
     {
       "headings": {
-        "software-engineering-for-self-directed-learners": "Software Engineering for Self-Directed Learners"
+        "combined-exercises": "Combined Exercises"
       },
-      "title": "Software Engineering for Self-Directed Learners [CS2103/T Version]",
-      "footer": "footer.md",
-      "siteNav": "se-book-adapted-sitenav.md",
-      "src": "se-book-adapted/index.md"
+      "src": "book/combined/exercises.md",
+      "title": ""
     }
   ]
 }

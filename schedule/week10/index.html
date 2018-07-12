@@ -16,17 +16,17 @@
 </head>
 <body>
 <div id="app" class="container-fluid">
-    <panel dynamic="" type="seamless" popup-url="/website-base/schedule/week10/outcomes.html" expanded="" no-close="">
+    <panel type="seamless" popup-url="/website-base/schedule/week10/outcomes.html" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Outcomes</span>
   <div class="indented">
     <p><span class="activity-desc">SE</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.1</code> <strong>Can explain SE principles</strong> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.1a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the Law of Demeter</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -84,9 +84,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Examples for LoD">
+                          <panel header=":lock::key: Examples for LoD">
                             <question has-input="true">
                               <p>Explain the Law of Demeter using code examples. You are to make up your own code examples. Take Minesweeper as the basis for your code examples.</p>
                               <div slot="answer">
@@ -104,7 +104,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: LoD violation?">
+                          <panel header=":lock::key: LoD violation?">
                             <question>
                               <p>This violates Law of Demeter.</p>
                               <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
@@ -124,7 +124,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Odd one out">
+                          <panel header=":lock::key: Odd one out">
                             <question>
                               <p>Pick the odd one out.</p>
                               <ul class="task-list">
@@ -153,7 +153,7 @@
               <p>Identify places where LoD is followed/violated in your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.1b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain SOLID Principles</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -173,7 +173,7 @@
                 <div id="main">
                   <div>
                     <p>The five OOP principles given below are known as <em>SOLID Principles</em> (an acronym made up of the first letter of each principle):</p>
-                    <panel dynamic="" type="seamless" header="**S**ingle Responsibility Principle (SRP)">
+                    <panel type="seamless" header="**S**ingle Responsibility Principle (SRP)">
                       <div>
                         <div></div>
                         <p></p>
@@ -200,7 +200,7 @@
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":paperclip:  Resources" expanded="">
+                                <panel header=":paperclip:  Resources" expanded="">
                                   <ul>
                                     <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
                                     <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a> by Patkos Csaba</li>
@@ -213,7 +213,7 @@
                         </div>
                       </div>
                     </panel>
-                    <panel dynamic="" type="seamless" header="**O**pen-Closed Principle (OCP)">
+                    <panel type="seamless" header="**O**pen-Closed Principle (OCP)">
                       <div>
                         <div></div>
                         <p></p>
@@ -254,9 +254,9 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Meaning of OCP">
+                                    <panel header=":lock::key: Meaning of OCP">
                                       <question>
                                         <p>Which of these is closest to the meaning of the open-closed principle?</p>
                                         <ul radio-group="6906e" class="radio-list">
@@ -279,7 +279,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                         </div>
                       </div>
                     </panel>
-                    <panel dynamic="" type="seamless" header="**L**iskov Substitution Principle (LSP)">
+                    <panel type="seamless" header="**L**iskov Substitution Principle (LSP)">
                       <div>
                         <div></div>
                         <p></p>
@@ -306,7 +306,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                                 <div>
                                   <div>
                                     <p>
-                                      <panel dynamic="" src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Object Oriented Programming → Inheritance → What%%"></panel>
+                                      <panel src="/website-base\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Object Oriented Programming → Inheritance → What%%"></panel>
                                     </p>
                                   </div>
                                   <p></p>
@@ -323,7 +323,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                                         <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where
                                           a parent class object is expected.</p>
                                         <tip-box>
-                                          <img src="/website-base/book/oopDesign/inheritance/substitutability/images/staff.png" height="80">
+                                          <img src="/website-base/book/oop/inheritance/substitutability/images/staff.png" height="80">
                                           <p></p>
                                           <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>.
                                             i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
@@ -357,7 +357,7 @@ AcademicStaff academicStaff = staff; // Not OK
                                     will not break the <code>Payroll</code> class functionality.</li>
                                   <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code>                                    objects can potentially break the <code>Payroll</code> class functionality.</li>
                                 </ul>
-                                <panel dynamic="" type="seamless" header="%%Another example%%">
+                                <panel type="seamless" header="%%Another example%%">
                                   <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code>                                    because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
                                   <img src="/website-base/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
                                   <p></p>
@@ -391,9 +391,9 @@ AcademicStaff academicStaff = staff; // Not OK
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Is this LSP?">
+                                    <panel header=":lock::key: Is this LSP?">
                                       <question>
                                         <p>If a subclass imposes more restrictive conditions than its parent class, it violates Liskov Substitution Principle.</p>
                                         <ul radio-group="55ada" class="radio-list">
@@ -414,7 +414,7 @@ AcademicStaff academicStaff = staff; // Not OK
                         </div>
                       </div>
                     </panel>
-                    <panel dynamic="" type="seamless" header="**I**nterface Segregation Principle (ISP)">
+                    <panel type="seamless" header="**I**nterface Segregation Principle (ISP)">
                       <div>
                         <div></div>
                         <p></p>
@@ -460,7 +460,7 @@ AcademicStaff academicStaff = staff; // Not OK
                         </div>
                       </div>
                     </panel>
-                    <panel dynamic="" type="seamless" header="**D**ependency Inversion Principle (DIP)">
+                    <panel type="seamless" header="**D**ependency Inversion Principle (DIP)">
                       <div>
                         <div></div>
                         <p></p>
@@ -490,9 +490,9 @@ AcademicStaff academicStaff = staff; // Not OK
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Which of these statements is true about the Dependency Inversion Principle.">
+                                    <panel header=":lock::key: Which of these statements is true about the Dependency Inversion Principle.">
                                       <question>
                                         <p>Which of these statements is true about the Dependency Inversion Principle.</p>
                                         <ul class="task-list">
@@ -527,7 +527,7 @@ AcademicStaff academicStaff = staff; // Not OK
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.1c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain YAGNI principle</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -556,7 +556,7 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://martinfowler.com/bliki/Yagni.html"><strong>Yagni</strong></a> -- A detailed article explaining YAGNI, written by Martin Fowler.</li>
                         </ul>
@@ -567,7 +567,7 @@ AcademicStaff academicStaff = staff; // Not OK
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.1d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain DRY principle</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -602,7 +602,7 @@ AcademicStaff academicStaff = staff; // Not OK
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.1e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain Brooks' law</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -630,9 +630,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Brook’s Law vs school project">
+                          <panel header=":lock::key: Brook’s Law vs school project">
                             <question has-input="true">
                               <p>Do the Brook’s Law apply to a school project? Justify.</p>
                               <div slot="answer">
@@ -643,7 +643,7 @@ AcademicStaff academicStaff = staff; // Not OK
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Which one is related to Brook's law">
+                          <panel header=":lock::key: Which one is related to Brook's law">
                             <question>
                               <p>Which one of these (all attributed to Fred Brooks, the author of the famous SE book <em>The Mythical Man-Month</em>), is called the Brook’s law?</p>
                               <ul class="task-list">
@@ -670,14 +670,14 @@ AcademicStaff academicStaff = staff; // Not OK
     <p></p>
     <p><span class="activity-desc">Requirements</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.2</code> <strong>Can use activity diagrams</strong> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Basic notations</strong></span></p>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.2a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can use activity diagrams</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -716,25 +716,25 @@ AcademicStaff academicStaff = staff; // Not OK
                       <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg" width="430"></tip-box>
                     <p>The most basic activity diagram is simply a linear sequence of actions.</p>
                     <p>
-                      <panel dynamic="" src="/website-base\book\uml\activityDiagrams\basicNotations\linearPaths\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML → Activity Diagrams → Basic Notations → Linear Paths"
+                      <panel src="/website-base\book\uml\activityDiagrams\basicNotations\linearPaths\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML → Activity Diagrams → Basic Notations → Linear Paths"
                         expanded=""></panel>
                     </p>
                     <p>Some workflows have alternate paths where only one of the alternate paths is taken based on some condition.</p>
                     <p>
-                      <panel dynamic="" src="/website-base\book\uml\activityDiagrams\basicNotations\alternatePaths\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML → Activity Diagrams → Basic Notations → Alternative Paths"
+                      <panel src="/website-base\book\uml\activityDiagrams\basicNotations\alternatePaths\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML → Activity Diagrams → Basic Notations → Alternative Paths"
                         expanded=""></panel>
                     </p>
                     <p>In some workflows, multiple paths happen in parallel.</p>
                     <p>
-                      <panel dynamic="" src="/website-base\book\uml\activityDiagrams\basicNotations\parallelPaths\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML → Activity Diagrams → Basic Notations → Parallel Paths"
+                      <panel src="/website-base\book\uml\activityDiagrams\basicNotations\parallelPaths\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML → Activity Diagrams → Basic Notations → Parallel Paths"
                         expanded=""></panel>
                     </p>
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which sequences are not allowed?">
+                          <panel header=":lock::key: Which sequences are not allowed?">
                             <question>
                               <p>Which of these sequence of actions is not allowed by the given activity diagram?</p>
                               <ul class="task-list">
@@ -766,7 +766,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Intermediate notations</strong></span></p>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.2b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can use rakes in activity diagrams</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -800,7 +800,7 @@ AcademicStaff academicStaff = staff; // Not OK
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.2c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain swimlanes in activity diagrams</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -836,14 +836,14 @@ AcademicStaff academicStaff = staff; // Not OK
     <p></p>
     <p><span class="activity-desc">Design</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.3</code> <strong>Can use some basic design patterns</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Introduction</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain design patterns</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -894,9 +894,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Definition of design patterns">
+                          <panel header=":lock::key: Definition of design patterns">
                             <question>
                               <p>Which one of these describes the ‘software design patterns’ concept best?</p>
                               <ul radio-group="a7255" class="radio-list">
@@ -918,7 +918,7 @@ AcademicStaff academicStaff = staff; // Not OK
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain design patterns format</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -950,9 +950,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Anti-patterns required?">
+                          <panel header=":lock::key: Anti-patterns required?">
                             <question>
                               <p>When we describe a pattern, we must also specify anti-patterns.</p>
                               <ul radio-group="2350f" class="radio-list">
@@ -975,7 +975,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Singleton pattern</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the Singleton design pattern</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1010,9 +1010,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Statements about the Singleton pattern">
+                          <panel header=":lock::key: Statements about the Singleton pattern">
                             <question>
                               <p>We use the Singleton pattern when</p>
                               <ul radio-group="d9393" class="radio-list">
@@ -1039,7 +1039,7 @@ AcademicStaff academicStaff = staff; // Not OK
               <p>Identify where in the project Singleton pattern can be used.</p>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can apply the Singleton design pattern</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1099,7 +1099,7 @@ AcademicStaff academicStaff = staff; // Not OK
               <p>Identify where in the project Singleton pattern has been used. Apply singleton pattern somewhere (in a toy example or in a project)</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can decide when to apply Singleton design pattern</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1145,7 +1145,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Facade pattern</strong></span></p>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the Facade design pattern</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1184,9 +1184,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Is this Facade?">
+                          <panel header=":lock::key: Is this Facade?">
                             <question>
                               <p>Does the design below likely to use the Facade pattern?</p>
                               <img src="/website-base/book/designPatterns/facade/what/images/textStorage.png" height="150">
@@ -1216,7 +1216,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Command pattern</strong></span></p>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.3g</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the Command design pattern</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1271,13 +1271,13 @@ AcademicStaff academicStaff = staff; // Not OK
     <p></p>
     <p><span class="activity-desc">Implementation</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.4</code> <strong>Can get reuse benefits from frameworks, libraries, and platforms</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Reuse</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain software reuse</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1305,7 +1305,7 @@ AcademicStaff academicStaff = staff; // Not OK
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the costs and benefits of reuse</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1337,9 +1337,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Using a cool UI framework">
+                          <panel header=":lock::key: Using a cool UI framework">
                             <question has-input="true">
                               <p>One of your teammates is proposing to use a recently-released “cool” UI framework for your class project. List the pros and cons of this idea.</p>
                               <div slot="answer">
@@ -1375,7 +1375,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Libraries</strong></span></p>
-        <panel dynamic="" type="danger" expanded="" no-close="">
+        <panel type="danger" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain libraries</span> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
           </span>
           </span>
@@ -1421,7 +1421,7 @@ AcademicStaff academicStaff = staff; // Not OK
             <p>Identify libraries used (or potentially usable) in your project.</p>
           </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can make use of a library</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1462,7 +1462,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Frameworks</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain frameworks</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1524,7 +1524,7 @@ AcademicStaff academicStaff = staff; // Not OK
               <p>Identify frameworks used (or potentially usable) in your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can differentiate between frameworks and libraries</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1557,9 +1557,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Statement about software frameworks">
+                          <panel header=":lock::key: Statement about software frameworks">
                             <question>
                               <p>Choose correct statements about software frameworks.</p>
                               <ul class="task-list">
@@ -1579,7 +1579,7 @@ AcademicStaff academicStaff = staff; // Not OK
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Which are frameworks?">
+                          <panel header=":lock::key: Which are frameworks?">
                             <question>
                               <p>Which one of these are frameworks ?</p>
                               <ul radio-group="58823" class="radio-list">
@@ -1609,7 +1609,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </panel>
         <br>
         <p><span class="dimmed"><strong>Platforms</strong></span></p>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.4g</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain platforms</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1665,12 +1665,12 @@ AcademicStaff academicStaff = staff; // Not OK
     <p></p>
     <p><span class="activity-desc">Quality Assurance</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.5</code> <strong>Can explain test case design</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.5a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the need for deliberate test case design</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1726,9 +1726,9 @@ AcademicStaff academicStaff = staff; // Not OK
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Test cases for `TriangleDetector`">
+                          <panel header=":lock::key: Test cases for `TriangleDetector`">
                             <question has-input="true">
                               <p>Given below is the sample output from a text-based program <code>TriangleDetector</code> ithat determines whether the three input numbers make up the three sides of a valid triangle. List test cases you would use to test
                                 this software. Two sample test cases are given below.</p>
@@ -1765,7 +1765,7 @@ Enter side 1:
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Exhaustive testing in Minesweeper">
+                          <panel header=":lock::key: Exhaustive testing in Minesweeper">
                             <question has-input="true">
                               <p>Explain the why exhaustive testing is not practical using the example of testing <code>newGame()</code> operation in the <code>Logic</code> class of a Minesweeper game.</p>
                               <div slot="answer">
@@ -1783,7 +1783,7 @@ Enter side 1:
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Statements about E&E of testing">
+                          <panel header=":lock::key: Statements about E&E of testing">
                             <question>
                               <p>Improving efficiency and effectiveness of test case design can,</p>
                               <ul class="task-list">
@@ -1812,7 +1812,7 @@ Enter side 1:
               <p>Explain why testing needs to be E&amp;E, using examples from your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.5b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain exploratory testing and scripted testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1862,9 +1862,9 @@ Enter side 1:
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: statements about exploratory and scripted testing">
+                          <panel header=":lock::key: statements about exploratory and scripted testing">
                             <question>
                               <p>Scripted testing requires tests to be written in a scripting language; Manual testing is called exploratory testing.</p>
                               <ul radio-group="db31a" class="radio-list">
@@ -1879,7 +1879,7 @@ Enter side 1:
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Which testing technique is better?">
+                          <panel header=":lock::key: Which testing technique is better?">
                             <question>
                               <p>Which testing technique is better?</p>
                               <ul radio-group="9fd35" class="radio-list">
@@ -1896,7 +1896,7 @@ Enter side 1:
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Explain the concept of exploratory testing using Minesweeper as an example.">
+                          <panel header=":lock::key: Explain the concept of exploratory testing using Minesweeper as an example.">
                             <question has-input="true">
                               <p>Explain the concept of exploratory testing using Minesweeper as an example.</p>
                               <div slot="answer">
@@ -1917,7 +1917,7 @@ Enter side 1:
               <p>Explain exploratory and scripted testing in the context of your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.5c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the choice between exploratory testing and scripted testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1956,9 +1956,9 @@ Enter side 1:
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which is better?">
+                          <panel header=":lock::key: Which is better?">
                             <question>
                               <p>Scripted testing is better than exploratory testing.</p>
                               <ul radio-group="7d3ff" class="radio-list">
@@ -1979,7 +1979,7 @@ Enter side 1:
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.5d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain positive and negative test cases</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2018,7 +2018,7 @@ Enter side 1:
               <p>Give examples of positive and negative test cases from your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.5e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain black box and glass box test case design</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2051,7 +2051,7 @@ Enter side 1:
                           than 1000 items and lists longer than 1000 items, more meaningful test cases can then be added to verify the correctness of both algorithms.</p>
                       </li>
                     </ul>
-                    <panel dynamic="" type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> %%Black-box and white-box testing%%">
+                    <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> %%Black-box and white-box testing%%">
                       <p><sub>Note: these videos are from the <a href="https://www.udacity.com/course/software-development-process--ud805">Udacity course <em>Software Development Process</em> by Georgia Tech</a></sub></p>
                       <tabs>
                       
@@ -2088,7 +2088,7 @@ Enter side 1:
               <p>Explain black/white/grey box testing using examples from your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.5f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain test case design for use case based testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2176,9 +2176,9 @@ Enter side 1:
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: statements about exploratory and scripted testing">
+                                    <panel header=":lock::key: statements about exploratory and scripted testing">
                                       <question>
                                         <p>Scripted testing requires tests to be written in a scripting language; Manual testing is called exploratory testing.</p>
                                         <ul radio-group="db31a" class="radio-list">
@@ -2193,7 +2193,7 @@ Enter side 1:
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Which testing technique is better?">
+                                    <panel header=":lock::key: Which testing technique is better?">
                                       <question>
                                         <p>Which testing technique is better?</p>
                                         <ul radio-group="9fd35" class="radio-list">
@@ -2210,7 +2210,7 @@ Enter side 1:
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Explain the concept of exploratory testing using Minesweeper as an example.">
+                                    <panel header=":lock::key: Explain the concept of exploratory testing using Minesweeper as an example.">
                                       <question has-input="true">
                                         <p>Explain the concept of exploratory testing using Minesweeper as an example.</p>
                                         <div slot="answer">
@@ -2238,12 +2238,12 @@ Enter side 1:
             </div>
         </panel>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.6</code> <strong>Can use EP for test case design</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.6a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain equivalence partitions</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2289,7 +2289,7 @@ Enter side 1:
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.6b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can apply EP for pure functions</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2393,9 +2393,9 @@ Enter side 1:
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: EPs for `isValidName` method">
+                          <panel header=":lock::key: EPs for `isValidName` method">
                             <question>
                               <p>Consider this SUT:</p>
                               <tip-box>
@@ -2432,7 +2432,7 @@ Enter side 1:
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.6c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can apply EP for OOP methods</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2514,12 +2514,12 @@ Enter side 1:
             </div>
         </panel>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.7</code> <strong>Can use Boundary Value Analysis for test case design</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.7a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain boundary value analysis</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2550,9 +2550,9 @@ Enter side 1:
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: What BVA recommends">
+                          <panel header=":lock::key: What BVA recommends">
                             <question>
                               <p>Boundary value analysis recommends testing <em>only</em> values that reside on the equivalence class boundary.</p>
                               <ul radio-group="f8ff4" class="radio-list">
@@ -2573,7 +2573,7 @@ Enter side 1:
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W10.7b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can apply boundary value analysis</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2657,7 +2657,7 @@ Enter side 1:
     <p></p>
     <p><span class="activity-desc">🅿️ Project</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W10.8</code> <strong>Can evolve a product incrementally</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
@@ -2672,7 +2672,7 @@ Enter side 1:
     <p></p>
   </div>
 </panel>
-<panel dynamic="" type="seamless" expanded="" no-close="">
+<panel type="seamless" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Todo</span>
   <div class="indented">
     <div>
@@ -2689,7 +2689,7 @@ Enter side 1:
     </div>
   </div>
 </panel>
-<panel dynamic="" type="seamless" expanded="" no-close="">
+<panel type="seamless" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Tutorial 10</span>
   <div class="indented">
     <div>
@@ -2739,7 +2739,7 @@ Enter side 1:
     </div>
   </div>
 </panel>
-<panel dynamic="" type="seamless" expanded="" no-close="">
+<panel type="seamless" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Lecture 10</span>
   <div class="indented">
     <div>

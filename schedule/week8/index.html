@@ -16,19 +16,19 @@
 </head>
 <body>
 <div id="app" class="container-fluid">
-    <panel dynamic="" type="seamless" popup-url="/website-base/schedule/week8/outcomes.html" expanded="" no-close="">
+    <panel type="seamless" popup-url="/website-base/schedule/week8/outcomes.html" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Outcomes</span>
   <div class="indented">
     <p><span class="activity-desc">Design</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W8.1</code> <strong>Can use basic software design principles</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Abstraction</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain abstraction</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -80,7 +80,7 @@
         </panel>
         <br>
         <p><span class="dimmed"><strong>Coupling</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain coupling</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -114,9 +114,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Coupling levels of alternative designs">
+                          <panel header=":lock::key: Coupling levels of alternative designs">
                             <question has-input="true">
                               <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                               <tip-box>
@@ -132,7 +132,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: regressions and coupling.">
+                          <panel header=":lock::key: regressions and coupling.">
                             <question has-input="true">
                               <p>Explain the link (if any) between regressions and coupling.</p>
                               <div slot="answer">
@@ -142,7 +142,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Coupling and testability">
+                          <panel header=":lock::key: Coupling and testability">
                             <question has-input="true">
                               <p>Discuss the relationship between coupling and
                                 <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
@@ -154,7 +154,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Statements about coupling">
+                          <panel header=":lock::key: Statements about coupling">
                             <question>
                               <p>Choose the correct statements.</p>
                               <ul class="task-list">
@@ -183,7 +183,7 @@
               <p>Explain coupling with examples from AddressBook-Level4 (or your own project).</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can reduce coupling</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -192,7 +192,7 @@
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\designFundamentals\coupling\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Design Fundamentals → Coupling → What%%"></panel>
+                  <panel src="/website-base\book\designFundamentals\coupling\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Design Fundamentals → Coupling → What%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -210,7 +210,7 @@
                     <tip-box>
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially
                         (but not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
-                      <panel dynamic="" type="seamless" header="%%code for the above example%%">
+                      <panel type="seamless" header="%%code for the above example%%">
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     ...
     <span class="hljs-keyword">new</span> Bar().read();
@@ -243,9 +243,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which indicate coupling?">
+                          <panel header=":lock::key: Which indicate coupling?">
                             <question>
                               <p>Which of these indicate a coupling between components A and B?</p>
                               <ul class="task-list">
@@ -275,7 +275,7 @@
               <p>Explain with examples from AddressBook-Level4 (or your own project) how coupling can be increased/decreased.</p>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can identify types of coupling</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -284,7 +284,7 @@
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\designFundamentals\coupling\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Design Fundamentals → Coupling → What%%"></panel>
+                  <panel src="/website-base\book\designFundamentals\coupling\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Design Fundamentals → Coupling → What%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -321,7 +321,7 @@
         </panel>
         <br>
         <p><span class="dimmed"><strong>Cohesion</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain cohesion</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -361,7 +361,7 @@
               <p>Explain cohesion with examples from AddressBook-Level4 (or your own project).</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can increase cohesion</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -370,7 +370,7 @@
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\designFundamentals\cohesion\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Design Fundamentals → Cohesion →
+                  <panel src="/website-base\book\designFundamentals\cohesion\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Design Fundamentals → Cohesion →
 What%%"></panel>
                 </p>
               </div>
@@ -398,9 +398,9 @@ What%%"></panel>
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which class is more cohesive?">
+                          <panel header=":lock::key: Which class is more cohesive?">
                             <question has-input="true">
                               <p>Compare the cohesion of the following two versions of the <code>EmailMessage</code> class. Which one is more cohesive and why?</p>
                               <pre><code class="hljs java"><span class="hljs-comment">// version-1</span>
@@ -465,7 +465,7 @@ What%%"></panel>
         </panel>
         <br>
         <p><span class="dimmed"><strong>SoC and OCP</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1g</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain separation of concerns principle</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -567,9 +567,9 @@ What%%"></panel>
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Coupling levels of alternative designs">
+                                    <panel header=":lock::key: Coupling levels of alternative designs">
                                       <question has-input="true">
                                         <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                                         <tip-box>
@@ -585,7 +585,7 @@ What%%"></panel>
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel dynamic="" header=":lock::key: regressions and coupling.">
+                                    <panel header=":lock::key: regressions and coupling.">
                                       <question has-input="true">
                                         <p>Explain the link (if any) between regressions and coupling.</p>
                                         <div slot="answer">
@@ -595,7 +595,7 @@ What%%"></panel>
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Coupling and testability">
+                                    <panel header=":lock::key: Coupling and testability">
                                       <question has-input="true">
                                         <p>Discuss the relationship between coupling and
                                           <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
@@ -607,7 +607,7 @@ What%%"></panel>
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Statements about coupling">
+                                    <panel header=":lock::key: Statements about coupling">
                                       <question>
                                         <p>Choose the correct statements.</p>
                                         <ul class="task-list">
@@ -665,9 +665,9 @@ What%%"></panel>
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: correct statement about SoC">
+                          <panel header=":lock::key: correct statement about SoC">
                             <question>
                               <p>“Only the GUI class should interact with the user. The GUI class should only concern itself with user interactions”. This statement follows from,</p>
                               <ul class="task-list">
@@ -695,7 +695,7 @@ What%%"></panel>
               <p>Explain SoC with examples from AddressBook-Level4 (or your own project).</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.1h</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain open-closed principle (OCP)</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -741,9 +741,9 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Meaning of OCP">
+                          <panel header=":lock::key: Meaning of OCP">
                             <question>
                               <p>Which of these is closest to the meaning of the open-closed principle?</p>
                               <ul radio-group="6906e" class="radio-list">
@@ -776,12 +776,12 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
     <p></p>
     <p><span class="activity-desc">Implementation</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W8.2</code> <strong>Can explain integration approaches</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.2a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain how integration approaches vary based on timing and frequency</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -791,7 +791,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\integration\introduction\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → Integration → Introduction → What%%"></panel>
+                  <panel src="/website-base\book\integration\introduction\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → Integration → Introduction → What%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -826,7 +826,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.2b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain how integration approaches vary based on amount merged at a time</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -858,9 +858,9 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header="Q: Big-bang integration in school projects">
+                          <panel header="Q: Big-bang integration in school projects">
                             <question has-input="true">
                               <p>Give two arguments in support and two arguments against the following statement.</p>
                               <p><em>Because there is no external client, it is OK to use big bang integration for a school project.</em></p>
@@ -888,7 +888,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.2c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain how integration approaches vary based on the order of integration</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -897,7 +897,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\integration\approaches\bigBangVsIncremental\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → Integration → Approaches → Big-Bang Vs Incremental%%"></panel>
+                  <panel src="/website-base\book\integration\approaches\bigBangVsIncremental\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → Integration → Approaches → Big-Bang Vs Incremental%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -937,9 +937,9 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Suggest an integration strategy">
+                          <panel header=":lock::key: Suggest an integration strategy">
                             <question has-input="true">
                               <p>Suggest an integration strategy for the system represented by following diagram. You need not follow a strict top-down, bottom-up, sandwich, or big bang approach. Dashed arrows represent dependencies between classes.</p>
                               <p>Also take into account the following facts in your test strategy.</p>
@@ -969,7 +969,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Integration order">
+                          <panel header=":lock::key: Integration order">
                             <question has-input="false">
                               <p>Consider the architecture given below. Describe the order in which components will be integrated with one another if the following integration strategies were adopted.</p>
                               <p>a) top-down b) bottom-up c) sandwich</p>
@@ -998,12 +998,12 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
             </div>
         </panel>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W8.3</code> <strong>Can implement association classes</strong> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.3a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the meaning of association classes</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1027,6 +1027,25 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> A <code>Man</code> class and a <code>Woman</code> class is linked with a ‘married to’ association and there is a need to store the date of marriage. However, that
                         data is related to the association rather than specifically owned by either the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code>                        class, to store such information.</p>
                     </tip-box>
+                    <h5 id="implementing-association-classes"><big>Implementing association classes</big></h5>
+                    <p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
+                    <tip-box>
+                      <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> In the code below, the <code>Transaction</code> class is an association class that represent a transaction between a <code>Person</code> who is the seller and another
+                        <code>Person</code> who is the buyer.</p>
+                      <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span></span>{
+    
+    <span class="hljs-comment">//all fields are compulsory</span>
+    Person seller;
+    Person buyer;
+    Date date;
+    String receiptNumber;
+    
+    Marriage (Person seller, Person buyer, Date date, String receiptNumber){
+        <span class="hljs-comment">//set fields</span>
+    }
+}
+</code></pre>
+                    </tip-box>
                   </div>
                   <div></div>
                 </div>
@@ -1038,91 +1057,18 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               <p>Give more examples of association classes, preferably related to your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W8.3b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement association classes</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\associations\associationClasses\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Associations → Association Classes%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-association-classes">Implementing Association Classes</h4>
-                </div>
-                <div id="main">
-                  <div>
-                    <p>Note that while a special notation is used to indicate an association class, there is no special way to implement an association class.</p>
-                    <tip-box>
-                      <p>Example:</p>
-                      <img src="/website-base/book/oopImplementation/associationClasses/images/manWoman.png" height="140">
-                      <p></p>
-                      <p>At implementation level, an association class is most likely implemented as follows.</p>
-                      <img src="/website-base/book/oopImplementation/associationClasses/images/manWomanImplementation.png" height="140">
-                      <p></p>
-                      <p>
-                        <panel dynamic="" type="seamless" src="/website-base\book\oopImplementation\associationClasses\code-marriage._include_.html" header="%%See code%%"></panel>
-                      </p>
-                    </tip-box>
-                  </div>
-                  <div>
-                    <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
-                        <div>
-                          <panel dynamic="" header=":lock::key: Which are suitable as an Association Class?">
-                            <question>
-                              <p>Which one of these is the suitable as an Association Class?</p>
-                              <img src="/website-base/book/oopImplementation/associationClasses/images/exerciseDiagram.png" height="330">
-                              <p></p>
-                              <ul class="task-list">
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
-                              </ul>
-                              <div slot="answer">
-                                <p>(a)(b)<s>(c)</s>(d)</p>
-                                <p>Explanation: Mileage is a property of the car, and not specifically about the association between the Driver and the Car. If Mileage was defined as the total number of miles that car was driven by that driver, then it would
-                                  be suitable as an association class.</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr style="border-top: dashed 1px; border-color:grey">
-            <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
-            <div>
-              <p><strong>Acceptable</strong>: Evidence of implementing an association class.</p>
-              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2/blob/master/doc/LearningOutcomes.md#use-association-classes-lo-associationclass">AddressBook - Level 2: LO-AssociationClass</a>]
-                and create a PR against [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">AddressBook - Level 2</a>]</p>
-            </div>
-        </panel>
       </panel>
     </div>
     <p></p>
     <p><span class="activity-desc">Quality Assurance</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W8.4</code> <strong>Can explain different types of testing</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Unit Testing</strong></span></p>
-        <panel dynamic="" type="danger" expanded="" no-close="">
+        <panel type="danger" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain unit testing</span> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
           </span>
           </span>
@@ -1210,7 +1156,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                 </div>
                 <div>
                   <div>
-                    <panel dynamic="" header=":paperclip: Resources">
+                    <panel header=":paperclip: Resources">
                       <p><strong>Side readings:</strong></p>
                       <ul>
                         <li>[Web article] <a href="http://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests">The three pillars of unit testing</a> - A short article about what makes a good unit test.</li>
@@ -1228,7 +1174,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
             <p>Identify some unit tests in AddressBook-Level4 (or your own project).</p>
           </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can use stubs to isolate an SUT from its dependencies</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1237,7 +1183,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
+                  <panel src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1332,16 +1278,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://martinfowler.com/articles/mocksArentStubs.html"><strong>Mocks Aren't Stubs</strong></a> by Martin Fowler -- An in-depth article about how Stubs differ from other types of test helpers.</li>
                         </ul>
                       </panel>
                     </div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Purpose of stubs">
+                          <panel header=":lock::key: Purpose of stubs">
                             <question>
                               <p>Stubs help us to test a component in isolation from its dependencies.</p>
                               <ul radio-group="a0303" class="radio-list">
@@ -1370,7 +1316,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               </ol>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain dependency injection</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1398,7 +1344,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       <div>
                         <div>
                           <p>
-                            <panel dynamic="" src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
+                            <panel src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
                           </p>
                         </div>
                         <p></p>
@@ -1494,16 +1440,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":paperclip: Resources" expanded="">
+                                <panel header=":paperclip: Resources" expanded="">
                                   <ul>
                                     <li><a href="https://martinfowler.com/articles/mocksArentStubs.html"><strong>Mocks Aren't Stubs</strong></a> by Martin Fowler -- An in-depth article about how Stubs differ from other types of test helpers.</li>
                                   </ul>
                                 </panel>
                               </div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Purpose of stubs">
+                                    <panel header=":lock::key: Purpose of stubs">
                                       <question>
                                         <p>Stubs help us to test a component in isolation from its dependencies.</p>
                                         <ul radio-group="a0303" class="radio-list">
@@ -1533,7 +1479,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can use dependency injection</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1542,7 +1488,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\testing\dependencyInjection\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Dependency Injection → What%%"></panel>
+                  <panel src="/website-base\book\testing\dependencyInjection\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Dependency Injection → What%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1563,7 +1509,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       <div>
                         <div>
                           <p>
-                            <panel dynamic="" src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
+                            <panel src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
                           </p>
                         </div>
                         <p></p>
@@ -1659,16 +1605,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             </div>
                             <div>
                               <div>
-                                <panel dynamic="" header=":paperclip: Resources" expanded="">
+                                <panel header=":paperclip: Resources" expanded="">
                                   <ul>
                                     <li><a href="https://martinfowler.com/articles/mocksArentStubs.html"><strong>Mocks Aren't Stubs</strong></a> by Martin Fowler -- An in-depth article about how Stubs differ from other types of test helpers.</li>
                                   </ul>
                                 </panel>
                               </div>
                               <div>
-                                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                                <panel header=":muscle: Exercises" expandable="">
                                   <div>
-                                    <panel dynamic="" header=":lock::key: Purpose of stubs">
+                                    <panel header=":lock::key: Purpose of stubs">
                                       <question>
                                         <p>Stubs help us to test a component in isolation from its dependencies.</p>
                                         <ul radio-group="a0303" class="radio-list">
@@ -1754,9 +1700,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: statements about dependency injection">
+                          <panel header=":lock::key: statements about dependency injection">
                             <question>
                               <p>Choose correct statement about dependency injection</p>
                               <ul class="task-list">
@@ -1782,7 +1728,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </panel>
         <br>
         <p><span class="dimmed"><strong>Integration Testing</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain integration testing</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1792,7 +1738,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
+                  <panel src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1823,7 +1769,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Explain the difference between unit tests and integration tests.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain integration testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1832,7 +1778,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\testing\testingTypes\integrationTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Integration Testing → What →%%"></panel>
+                  <panel src="/website-base\book\testing\testingTypes\integrationTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Integration Testing → What →%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1876,7 +1822,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </panel>
         <br>
         <p><span class="dimmed"><strong>System Testing</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4g</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain system testing</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1929,7 +1875,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Explain what system tests are. Give examples from your own project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4h</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain automated GUI testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1973,7 +1919,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                         </li>
                         <li>
                           <p><a href="http://seleniumhq.org/"><strong>Selenium</strong></a> can be used to automate testing of Web application UIs<br></p>
-                          <panel dynamic="" type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> demo video of autoamted testing of a Web application">
+                          <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> demo video of autoamted testing of a Web application">
                             <p>This video shows automated testing of the <a href="http://github.com/teammates/teammates">TEAMMATES</a> Web app using Selenium</p>
                             <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/ihst69Zq1xM" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                           </panel>
@@ -1983,9 +1929,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: API testing vs GUI testing">
+                          <panel header=":lock::key: API testing vs GUI testing">
                             <question>
                               <p>GUI testing is usually easier than API testing because it doesn’t require any extra coding.</p>
                               <ul radio-group="dc574" class="radio-list">
@@ -2012,7 +1958,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </panel>
         <br>
         <p><span class="dimmed"><strong>Acceptance Testing</strong></span></p>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4i</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain acceptance testing</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2046,7 +1992,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Explain what acceptance tests are. Explain how acceptance testing of your project will be done.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4j</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the differences between system testing and acceptance testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2129,9 +2075,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Statements about system testing and acceptance testing.">
+                          <panel header=":lock::key: Statements about system testing and acceptance testing.">
                             <question>
                               <p>Choose the correct statements about system testing and acceptance testing.</p>
                               <ul class="task-list">
@@ -2165,7 +2111,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </panel>
         <br>
         <p><span class="dimmed"><strong>Alpha/Beta Testing</strong></span></p>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.4k</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain alpha and beta testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2203,12 +2149,12 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     <p></p>
     <p><span class="activity-desc">Project Management</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W8.5</code> <strong>Can use basic scheduling and tracking tools</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain milestones</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2270,7 +2216,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Identify milestones of your class project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain buffers</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2302,7 +2248,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Explain how buffers can be used in your class project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain issue trackers</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -2344,7 +2290,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Explain the role of GitHub issue tracker can play in your project.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain work breakdown structures</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2512,9 +2458,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which one is not a well-defined task?">
+                          <panel header=":lock::key: Which one is not a well-defined task?">
                             <question>
                               <p>Which one these project tasks is not well-defined?</p>
                               <ul radio-group="9211e" class="radio-list">
@@ -2543,7 +2489,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <p>Break down the project into well-defined tasks and records them in the issue tracker.</p>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain GANTT charts</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2575,7 +2521,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain PERT charts</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2620,7 +2566,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W8.5g</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain common team structures</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -2661,9 +2607,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which team structure is the most suitable for a school project?">
+                          <panel header=":lock::key: Which team structure is the most suitable for a school project?">
                             <question>
                               <p>Which team structure is the most suitable for a school project?</p>
                               <ul radio-group="8ee7d" class="radio-list">
@@ -2696,7 +2642,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     <p></p>
     <p><span class="activity-desc">🅿️ Project</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W8.6</code> <strong>Can plan/track project schedule</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
@@ -2711,7 +2657,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     <p></p>
   </div>
 </panel>
-<panel dynamic="" type="seamless" expanded="" no-close="">
+<panel type="seamless" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Todo</span>
   <div class="indented">
     <div>
@@ -2749,7 +2695,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
   </div>
 </panel>
-<panel dynamic="" type="seamless" expanded="" no-close="">
+<panel type="seamless" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Tutorial 8</span>
   <div class="indented">
     <div>
@@ -2785,7 +2731,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
   </div>
 </panel>
-<panel dynamic="" type="seamless" expanded="" no-close="">
+<panel type="seamless" expanded="" no-close="">
   <span slot="header" class="panel-title activity-type"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Lecture 8</span>
   <div class="indented">
     <div>

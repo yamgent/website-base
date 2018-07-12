@@ -23,7 +23,7 @@
   <div id="main">
     <p><span class="activity-desc">Requirements</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.1</code> <strong>Can apply basic product design guidelines</strong> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
@@ -38,12 +38,12 @@
     <p></p>
     <p><span class="activity-desc">Implementation</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.2</code> <strong>Can implement inheritance</strong> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="default" expanded="" no-close="">
+        <panel type="default" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.2a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the meaning of inheritance</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -92,7 +92,7 @@
                     <tip-box>
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Two inheritance hierarchies/trees are given below. Note that <code>Parrot</code> <em>is a</em> <code>Bird</code> as well as it <em>is an</em> <code>Animal</code>.
                         Note that the triangle points to the parent class.</p>
-                      <img src="/website-base/book/oopDesign/inheritance/what/images/inheritanceTreesExamples.png" width="500">
+                      <img src="/website-base/book/oop/inheritance/what/images/inheritanceTreesExamples.png" width="500">
                       <p></p>
                     </tip-box>
                     <p><strong><em>Multiple Inheritance</em> is when a class inherits <em>directly</em> from multiple classes.</strong> Multiple inheritance among classes is allowed in some languages (e.g., Python, C++) but not in other languages (e.g.,
@@ -100,12 +100,38 @@
                     <tip-box>
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The <code>Honey</code> class inherits from the <code>Food</code> class <em>and</em> the <code>Medicine</code> class <span class="dimmed">because honey can be consumed as a food as well as a medicine (in some oriental medicine practices)</span>.</p>
                     </tip-box>
+                    <h5 id="implementing-inheritance"><big>Implementing inheritance</big></h5>
+                    <tabs>
+                    
+                      <tab header="Java">
+                        <p>To learn how to implement inheritance in Java, you can follow [<a href="https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html">Oracle’s Java Tutorials: Inheritance</a>]</p>
+                        <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> A very beginner-friendly video about implementing Java inheritance.">
+                          <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/9JpNY-XAseg" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
+                          <p></p>
+                        </panel>
+                        <p></p>
+                        <p>💡 Java requires all classes to have a parent class. If you do not specify a parent class, Java automatically assigns the <code>Object</code> class as the parent class.</p>
+                        <p>
+                          <hr>
+                        </p>
+                      </tab>
+                    
+                      <tab header="Python">
+                        <ul>
+                          <li><a href="https://nus-te3201.github.io/website/programming/toc/oop.html#inheritance">Python Programming Basics: OOP: Inheritance</a></li>
+                        </ul>
+                        <p>💡 Python automatically assigns the <code>object</code> class as the parent class.</p>
+                        <p>
+                          <hr>
+                        </p>
+                      </tab>
+                    </tabs>
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Which statements are correct">
+                          <panel header=":lock::key: Which statements are correct">
                             <question>
                               <p>Which of these are correct?</p>
                               <ul class="task-list">
@@ -129,67 +155,13 @@
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.2b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement basic inheritance</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → OOP → Inheritance → What%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-inheritance">Implementing Inheritance</h4>
-                </div>
-                <div id="main">
-                  <div>
-                    <tabs>
-                    
-                      <tab header="Java">
-                        <p>To learn how to implement inheritance in Java, you can follow [<a href="https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html">Oracle’s Java Tutorials: Inheritance</a>]</p>
-                        <panel dynamic="" type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> A very beginner-friendly video about implementing Java inheritance.">
-                          <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/9JpNY-XAseg" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
-                          <p></p>
-                        </panel>
-                        <p></p>
-                        <p>💡 Java requires all classes to have a parent class. If you do not specify a parent class, Java automatically assigns the <code>Object</code> class as the parent class.</p>
-                        <p>
-                          <hr>
-                        </p>
-                      </tab>
-                    
-                      <tab header="Python">
-                        <ul>
-                          <li><a href="https://nus-te3201.github.io/website/programming/toc/oop.html#inheritance">Python Programming Basics: OOP: Inheritance</a></li>
-                        </ul>
-                        <p>💡 Python automatically assigns the <code>object</code> class as the parent class.</p>
-                        <p>
-                          <hr>
-                        </p>
-                      </tab>
-                    </tabs>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-        </panel>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.3</code> <strong>Can implement class-level members</strong> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="default" expanded="" no-close="">
+        <panel type="default" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.3a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain class-level members</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -227,12 +199,34 @@
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The method <code>getTotalPersons()</code> is not suitable to send to a specific <code>Person</code> object <span class="dimmed">because a specific object of the <code>Person</code> class should not know about the total number of <code>Person</code> objects</span>.</p>
                     </tip-box>
                     <p><strong>Class-level attributes and methods are collectively called <mark><em>class-level members</em></mark></strong> (also called <em>static members</em> sometimes because some programming languages use the keyword <code>static</code>                      to identify class-level members). <strong>They are to be accessed using the class name rather than an instance of the class</strong>.</p>
+                    <h5 id="implementing-class-level-members"><big>Implementing class-level members</big></h5>
+                    <p>Some resources to learn how to implement class-level members:</p>
+                    <tabs>
+                    
+                      <tab header="Java">
+                        <ul>
+                          <li>
+                            <p><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html">Oracle’s official Java tutorial on class-level members</a></p>
+                          </li>
+                        </ul>
+                      </tab>
+                    
+                      <tab header="Python">
+
+                        <li>
+                          <p><a href="https://nus-te3201.github.io/website/programming/toc/oop.html#class-level-members">Python Programming Basics: OOP: Class-Level Members</a></p>
+                        </li>
+
+                        <p></p>
+                      </tab>
+                    </tabs>
+                    <hr>
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: Suitable as a class-level variables">
+                          <panel header=":lock::key: Suitable as a class-level variables">
                             <question>
                               <p>Which of these are suitable as class-level variables?</p>
                               <ul class="task-list">
@@ -256,71 +250,8 @@
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.3b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement class-level members</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\classes\classLevelMembers\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → OOP → Classes → Class-Level Members%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-class-level-members">Implementing Class-Level Members</h4>
-                </div>
-                <div id="main">
-                  <div>
-                    <p>Some resources to learn how to implement class-level members:</p>
-                    <tabs>
-                    
-                      <tab header="Java">
-                        <ul>
-                          <li>
-                            <p><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html">Oracle’s official Java tutorial on class-level members</a></p>
-                          </li>
-                        </ul>
-                      </tab>
-                    
-                      <tab header="Python">
-
-                        <li>
-                          <p><a href="https://nus-te3201.github.io/website/programming/toc/oop.html#class-level-members">Python Programming Basics: OOP: Class-Level Members</a></p>
-                        </li>
-
-                        <p></p>
-                      </tab>
-                    </tabs>
-                    <hr>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-            <hr style="border-top: dashed 1px; border-color:grey">
-            <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
-            <div>
-              <p><strong>Acceptable</strong>: Evidence of having used Java class-level members in some project.</p>
-              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2/blob/master/doc/LearningOutcomes.md#use-class-level-members-lo-classlevel">Addressbook-Level2: LO-ClassLevel</a>]</p>
-              <div>
-                <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">Addressbook-Level2</a>. <mark>Only clean PRs</mark> (i.e. free of unrelated code modifications) will be accepted.</p>
-                <p>
-                  <panel dynamic="" src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
-                    fragment="tutorial-pr-instructions"></panel>
-                </p>
-              </div>
-            </div>
-        </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.3c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain method overloading</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+        <panel type="default" expanded="" no-close="">
+          <span slot="header" class="panel-title"><span><code>W5.3b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain method overloading</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -342,7 +273,7 @@
                     <tip-box type="primary">
                       <div>
                         <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                        <panel dynamic="" type="seamless" header="%%Examples%%">
+                        <panel type="seamless" header="%%Examples%%">
                           <table class="markbind-table table table-bordered table-striped">
                             <thead>
                               <tr>
@@ -380,41 +311,7 @@
                         <li><code>calculate(int): void</code></li>
                       </ul>
                     </tip-box>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-        </panel>
-      </panel>
-      <panel dynamic="" no-close="">
-        <span slot="header" class="panel-title"><span><code>W5.4</code> <strong>Can implement overloading</strong> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
-          aria-hidden="true"></span></span>
-        </span>
-        </span>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.4a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement overloading</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\overloading\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%OOP → Inheritance → Overloading%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-overloading">Implementing Overloading</h4>
-                </div>
-                <div id="main">
-                  <div>
+                    <h5 id="implementing-overloading"><big>Implementing overloading</big></h5>
                     <p>An operation can be overloaded inside the same class or in sub/super classes.</p>
                     <tabs>
                     
@@ -446,17 +343,19 @@
                           </tip-box>
                           <p>📎 Resources:</p>
                           <ul>
-                            <li><a href="https://www.javatpoint.com/method-overloading-in-java"><strong>Method Overloading in Java</strong></a> a tutorial from <a href="http://javatpoint.com">javatpoint.com</a>. Also mentions the topic of a related topic
-                              <mark><em>type promotion</em></mark>.</li>
+                            <li>
+                              <p><a href="https://www.javatpoint.com/method-overloading-in-java"><strong>Method Overloading in Java</strong></a> a tutorial from <a href="http://javatpoint.com">javatpoint.com</a>. Also mentions the topic of a related topic
+                                <mark><em>type promotion</em></mark>.</p>
+                            </li>
                           </ul>
                         </div>
                       </tab>
-                    
-                      <tab header="Python">
-                        <div>
-                          <p>❗️ Python does not have direct support for method overloading.</p>
-                        </div>
-                      </tab>
+
+
+                      <p>
+                        <tab header="Python"></tab>
+                      </p>
+                      <div><span>❗️ Python does not have direct support for method overloading.</span></div>
                     </tabs>
                     <hr>
                     <p></p>
@@ -467,14 +366,20 @@
             </div>
         </panel>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
+        <span slot="header" class="panel-title"><span><code>W5.4</code> <strong>Can implement overloading</strong> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
+          aria-hidden="true"></span></span>
+        </span>
+        </span>
+      </panel>
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.5</code> <strong>Can implement polymorphism</strong> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
           aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Method Overriding</strong></span></p>
-        <panel dynamic="" type="default" expanded="" no-close="">
+        <panel type="default" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.5a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain method overriding</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -483,7 +388,7 @@
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → What%%"></panel>
+                  <panel src="/website-base\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → What%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -524,7 +429,7 @@
                                   <div>
                                     <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order
                                       is significant.</p>
-                                    <panel dynamic="" type="seamless" header="%%Examples%%">
+                                    <panel type="seamless" header="%%Examples%%">
                                       <table class="markbind-table table table-bordered table-striped">
                                         <thead>
                                           <tr>
@@ -561,6 +466,54 @@
                                     <li><code>calculate(int): void</code></li>
                                   </ul>
                                 </tip-box>
+                                <h5 id="implementing-overloading-2"><big>Implementing overloading</big></h5>
+                                <p>An operation can be overloaded inside the same class or in sub/super classes.</p>
+                                <tabs>
+                                
+                                  <tab header="Java">
+                                    <div>
+                                      <tip-box>
+                                        <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The constructor of the <code>Account</code> class below is <em>overloaded</em> because there are two constructors with different signatures: <code>()</code>                                          and <code>(String, String, double)</code>. Furthermore, the <code>save</code> method in the <code>Account</code> class is overloaded in the child class <code>SavingAccount</code>.</p>
+                                        <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
+    Account () {
+        ...
+    }
+    
+    Account (String name, String number, <span class="hljs-keyword">double</span> balance) {
+        ...
+    }
+    
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">save</span><span class="hljs-params">(<span class="hljs-keyword">int</span> amount)</span></span>{
+        ...
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SavingAccount</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Account</span></span>{
+    
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">save</span><span class="hljs-params">(Double amount)</span></span>{
+        ...
+    }
+}
+</code></pre>
+                                      </tip-box>
+                                      <p>📎 Resources:</p>
+                                      <ul>
+                                        <li>
+                                          <p><a href="https://www.javatpoint.com/method-overloading-in-java"><strong>Method Overloading in Java</strong></a> a tutorial from <a href="http://javatpoint.com">javatpoint.com</a>. Also mentions the topic of a
+                                            related topic <mark><em>type promotion</em></mark>.</p>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </tab>
+
+
+                                  <p>
+                                    <tab header="Python"></tab>
+                                  </p>
+                                  <div><span>❗️ Python does not have direct support for method overloading.</span></div>
+                                </tabs>
+                                <hr>
+                                <p></p>
                               </div>
                               <div></div>
                             </div>
@@ -568,35 +521,7 @@
                         </div>
                       </modal>
                     </tip-box>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-        </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement operation overriding</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\overriding\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → Overriding%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-overriding">Implementing Overriding</h4>
-                </div>
-                <div id="main">
-                  <div>
+                    <h5 id="implementing-overriding"><big>Implementing overriding</big></h5>
                     <p><strong>To override a method inherited from an ancestor class, simply re-implement the method in the target class.</strong></p>
                     <tabs>
                     
@@ -698,51 +623,22 @@ Ben is a student
                                 </td>
                               </tr>
                             </table>
+                            <p></p>
                           </tip-box>
                         </div>
                       </tab>
                     </tabs>
                     <hr>
                   </div>
-                  <div>
-                    <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
-                        <div>
-                          <panel dynamic="" header=":lock::key: Which methods override?">
-                            <question>
-                              <p>Which of these methods override another method?</p>
-                              <img src="/website-base/book/oopImplementation/overriding/images/overriding.png" height="220">
-                              <p></p>
-                              <ul class="task-list">
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e</li>
-                              </ul>
-                              <div slot="answer">
-                                <p>d</p>
-                                <p>Explanation: Method overriding requires a method in a <em>child class</em> to use the same method name and same parameter sequence used by one of its ancestors</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
+                  <div></div>
                 </div>
               </div>
-            </div>
-            <hr style="border-top: dashed 1px; border-color:grey">
-            <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
-            <div>
-              <p>Some evidence of using method overriding in some code you wrote.</p>
             </div>
         </panel>
         <br>
         <p><span class="dimmed"><strong>Polymorphism</strong></span></p>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain OOP polymorphism</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+        <panel type="default" expanded="" no-close="">
+          <span slot="header" class="panel-title"><span><code>W5.5b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain OOP polymorphism</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -756,7 +652,7 @@ Ben is a student
               </p>
               <div id="title-and-body">
                 <div>
-                  <h4 id="introduction">Introduction</h4>
+                  <h4 id="what-2">What</h4>
                 </div>
                 <div id="main">
                   <div>
@@ -822,190 +718,10 @@ Ben is a student
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement polymorphism</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\polymorphism\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Polymorphism → Introduction%%"></panel>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → What%%"></panel>
-                  <panel dynamic="" src="/website-base\book\oopImplementation\overriding\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Implementation → OOP → Overriding%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-polymorphism">Implementing Polymorphism</h4>
-                </div>
-                <div id="main">
-                  <div>
-                    <p><strong>We can use inheritance to achieve polymorphism</strong>.</p>
-                    <tip-box>
-                      <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Continuing with the example given in [
-                        <trigger trigger="click" for="modal:oopImpl-polymorphism"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> OOP → Polymorphism → Introduction </trigger>], given below is the minimum code for <code>Staff</code>, <code>Admin</code>, and <code>Academic</code> classes
-                        that achieves the desired polymorphism.</p>
-                      <modal title="" id="modal:oopImpl-polymorphism">
-                      
-                        <div>
-                          <div></div>
-                          <p></p>
-                          <p><span class="dimmed"><strong><span>Design → Object Oriented Programming → Polymorphism →
-</span></strong>
-                            </span>
-                          </p>
-                          <div id="title-and-body">
-                            <div>
-                              <h4 id="introduction-2">Introduction</h4>
-                            </div>
-                            <div id="main">
-                              <div>
-                                <tip-box type="primary">
-                                  <div>
-                                    <p><strong>Polymorphism</strong>:</p>
-                                    <blockquote>
-                                      <p>The ability of different objects to respond, each in its own way, to identical messages is called polymorphism. <sub>-- <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/OOP_ObjC/">Object-Oriented Programming with Objective-C</a>, Apple</sub></p>
-                                    </blockquote>
-                                  </div>
-                                </tip-box>
-                                <p>Take the example of writing a payroll application for a university to facilitate payroll processing of university staff. Suppose an <code>adjustSalary(int)</code> operation adjusts the salaries of all staff members. This
-                                  operation will be executed whenever the university initiates a salary adjustment for its staff. However, the adjustment formula is different for different staff categories, say admin and academic. Here is one possible
-                                  way of designing the classes in the <code>Payroll</code> system.</p>
-                                <p>Here is the implementation of the <code>adjustSalary(int)</code> operation.</p>
-                                <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll1</span> </span>{
-    ArrayList&lt; Admin &gt; admins;
-    ArrayList&lt; Academic &gt; academics;
-    <span class="hljs-comment">// ...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
-        <span class="hljs-keyword">for</span> (Admin ad: admins) {
-            ad.adjustSalary(byPercent);
-        }
-        <span class="hljs-keyword">for</span> (Academic ac: academics) {
-            ac.adjustSalary(byPercent);
-        }
-    }
-}
-</code></pre>
-                                <p>Note how processing is similar for the two staff types. It is as if the type of staff members is irrelevant to how they are processed inside this operation! If that is the case, can the staff type be &quot;abstracted away&quot;
-                                  from this method? Here is such an implementation of <code>adjustSalary(int)</code>:</p>
-                                <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll2</span> </span>{
-    ArrayList&lt; Staff &gt; staff;
-    <span class="hljs-comment">// ...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
-        <span class="hljs-keyword">for</span> (Staff s: staff) {
-            s.adjustSalary(byPercent);
-        }
-    }
-}
-</code></pre>
-                                <p>Notice the following:</p>
-                                <ul>
-                                  <li>Only one data structure <code>ArrayList&lt; Staff &gt;</code>. It contains both <code>Admin</code> and <code>Academic</code> objects but treats them as <code>Staff</code> objects</li>
-                                  <li>Only one loop</li>
-                                  <li>Outcome of the <code>s.adjustSalary(byPercent)</code> method call depends on whether <code>s</code> is an <code>Academic</code> or <code>Admin</code> object</li>
-                                </ul>
-                                <p>The above code is better in several ways:</p>
-                                <ul>
-                                  <li>It is shorter.</li>
-                                  <li>It is simpler.</li>
-                                  <li>It is more flexible (this code will remain the same even if more staff types are added).</li>
-                                </ul>
-                                <p>This does not mean we are getting rid of the <code>Academic</code> and <code>Admin</code> classes completely and replacing them with a more general class called <code>Staff</code>. Rather, this part of the code “treats”
-                                  both <code>Admin</code> and <code>Academic</code> objects as one type called <code>Staff</code>.</p>
-                                <p>For example, <code>ArrayList</code> staff contains both <code>Admin</code> and <code>Academic</code> objects although it treats all of them as <code>Staff</code> objects. However, when the <code>adjustSalary(int)</code>                                  operation of these objects is called, the resulting salary adjustment will be different for <code>Admin</code> objects and <code>Academic</code> objects. Therefore, different types of objects are treated as a single general
-                                  type, but yet each type of object exhibits a different kind of behavior. This is called <em>polymorphism</em> (literally, it means “ability to take many forms”). In this example, an object that is perceived as type <code>Staff</code>                                  can be an <code>Admin</code> object or an <code>Academic</code> object.</p>
-                              </div>
-                              <div></div>
-                            </div>
-                          </div>
-                        </div>
-                      </modal>
-                      <img src="/website-base/book/oopImplementation/polymorphism/images/polymorphicPayroll.png" height="200">
-                      <p></p>
-                      <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Staff</span> </span>{
-    String name;
-    <span class="hljs-keyword">double</span> salary;
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> percent)</span> </span>{
-        <span class="hljs-comment">// do nothing</span>
-    }
-}
-
-<span class="hljs-comment">//------------------------------------------</span>
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Staff</span> </span>{
-
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> percent)</span> </span>{
-        salary = salary * percent;
-    }
-}
-
-<span class="hljs-comment">//------------------------------------------</span>
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Academic</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Staff</span> </span>{
-
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> percent)</span> </span>{
-        salary = salary * percent * <span class="hljs-number">2</span>;
-    }
-}
-
-<span class="hljs-comment">//------------------------------------------</span>
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll</span> </span>{
-    ArrayList&lt; Staff &gt; staff;
-    <span class="hljs-comment">// ...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
-        <span class="hljs-keyword">for</span> (Staff s: staff) {
-            s.adjustSalary(byPercent);
-        }
-    }
-}
-</code></pre>
-                    </tip-box>
-                  </div>
-                  <div>
-                    <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
-                        <ul>
-                          <li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html">Oracle’s Java Tutorials: Polymorphism</a></li>
-                          <li><a href="https://www.tutorialspoint.com/java/java_polymorphism.htm">Java - Polymorphism</a> -- a tutorial from <a href="http://tutorialspoint.com">tutorialspoint.com</a></li>
-                        </ul>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr style="border-top: dashed 1px; border-color:grey">
-            <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
-            <div>
-              <p><strong>Acceptable</strong>: Using polymorphism in any past project.</p>
-              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-polymorphism-lo-polymorphism">Addressbook-Level3: LO-Polymorphism</a>]</p>
-              <div>
-                <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
-                <p>
-                  <panel dynamic="" src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
-                    fragment="tutorial-pr-instructions"></panel>
-                </p>
-              </div>
-            </div>
-        </panel>
         <br>
         <p><span class="dimmed"><strong>Abstract Classes</strong></span></p>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement abstract classes</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+        <panel type="default" expanded="" no-close="">
+          <span slot="header" class="panel-title"><span><code>W5.5c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement abstract classes</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -1034,40 +750,11 @@ Ben is a student
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The <code>Account</code> class has an abstract method (<code>addInterest()</code>).</p>
                     </tip-box>
                     <p><strong>A class that has an abstract method becomes an abstract class</strong>. Evan a class that does not have any abstract method can be declared as an abstract class. Abstract classes cannot be instantiated.</p>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-        </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5f</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement abstract classes</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\abstractClasses\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → OOP → Inheritance → Abstract Classes%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-abstract-classes">Implementing Abstract Classes</h4>
-                </div>
-                <div id="main">
-                  <div>
+                    <h5 id="implementing-abstract-classes"><big>Implementing abstract classes</big></h5>
                     <p><strong>Use the <code>abstract</code> keyword to identify abstract classes/methods.</strong></p>
                     <tip-box>
-                      <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Partial code below gives an example of how to declare abstract classes/methods.</p>
-                      <img src="/website-base/book/oopDesign/inheritance/abstractClasses/images/account.png" height="220">
-                      <p></p>
+                      <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Partial code below gives an example of how to declare abstract classes/methods. The <code>addInterest()</code> method in the <code>Account</code> class is abstract
+                        and therefore the <code>Account</code> class itself is abstract. The <code>CurrentAccount</code> class need not be abstract because it overrides the abstract method inherited from the parent class.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
     
     <span class="hljs-keyword">int</span> number;
@@ -1092,56 +779,21 @@ Ben is a student
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html">Oracle’s Java Tutorials: Abstract Methods and Classes</a></li>
                         </ul>
-                      </panel>
-                    </div>
-                    <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
-                        <div>
-                          <panel dynamic="" header=":lock::key: Statements about abstract classes">
-                            <question>
-                              <p>Choose the correct statements about abstract classes and
-                                <tooltip content="classes that are not abstract">concrete classes</tooltip>.</p>
-                              <ul class="task-list">
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. A concrete class can contain an abstract method.</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. An abstract class can contain concrete methods.</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. An abstract class need not contain any concrete methods.</li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. An abstract class cannot be instantiated.</li>
-                              </ul>
-                              <div slot="answer">
-                                <p>(b)(c)(d)</p>
-                                <p>Explanation: A concrete class cannot contain even a single abstract method.</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
                       </panel>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <hr style="border-top: dashed 1px; border-color:grey">
-            <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
-            <div>
-              <p><strong>Acceptable</strong>: Using abstract classes in any past project.</p>
-              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-abstract-classesmethods-lo-abstract">Addressbook-Level3: LO-Abstract</a>]</p>
-              <div>
-                <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
-                <p>
-                  <panel dynamic="" src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
-                    fragment="tutorial-pr-instructions"></panel>
-                </p>
-              </div>
-            </div>
         </panel>
         <br>
         <p><span class="dimmed"><strong>Interfaces</strong></span></p>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5g</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain interfaces</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+        <panel type="default" expanded="" no-close="">
+          <span slot="header" class="panel-title"><span><code>W5.5d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain interfaces</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -1175,40 +827,11 @@ Ben is a student
                     <tip-box>
                       <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> In the example above, <code>AcademicStaff</code> <em>is a</em> <code>SalariedStaff</code>. An <code>AcademicStaff</code> object can be used anywhere a <code>SalariedStaff</code>                        object is expected e.g. <code>SalariedStaff ss = new AcademicStaff()</code>.</p>
                     </tip-box>
-                    <p></p>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-        </panel>
-        <panel dynamic="" type="default" expanded="" no-close="">
-          <span slot="header" class="panel-title"><span><code>W5.5h</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can implement interfaces</span> <span class="label label-default"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div>
-                <p>
-                  <panel dynamic="" src="/website-base\book\oopDesign\inheritance\interfaces\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → OOP → Inheritance → Interfaces%%"></panel>
-                </p>
-              </div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Implementation → Object Oriented Programming →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="implementing-interfaces">Implementing Interfaces</h4>
-                </div>
-                <div id="main">
-                  <div>
+                    <h5 id="implementing-interfaces"><big>Implementing interfaces</big></h5>
                     <p><strong>Java allows multiple inheritance among interfaces. A Java class can <em>implement</em> multiple interfaces</strong> (and inherit from one class).</p>
                     <tip-box>
-                      <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The design below is allowed by Java.</p>
-                      <img src="/website-base/book/oopDesign/inheritance/interfaces/images/studentStaff.png" height="250">
+                      <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The design below is allowed by Java. <span class="dimmed">In case you are not familiar with UML notation used: solid lines indicate normal inheritance; dashed lines indicate interface inheritance; the triangle points to pare parent.</span></p>
+                      <img src="/website-base/book/oop/inheritance/interfaces/images/studentStaff.png" height="250">
                       <p></p>
                       <ol>
                         <li><code>Staff</code> interface inherits (note the solid lines) the interfaces <code>TaxPayer</code> and <code>Citizen</code>.</li>
@@ -1260,10 +883,11 @@ Ben is a student
 }
 </code></pre>
                     </tip-box>
+                    <p></p>
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html">Oracle’s Java Tutorials: Interfaces</a></li>
                         </ul>
@@ -1273,31 +897,18 @@ Ben is a student
                 </div>
               </div>
             </div>
-            <hr style="border-top: dashed 1px; border-color:grey">
-            <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
-            <div>
-              <p><strong>Acceptable</strong>: Using interfaces in any past project.</p>
-              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-interfaces-lo-interfaces">Addressbook-Level3: LO-Interfaces</a>]</p>
-              <div>
-                <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
-                <p>
-                  <panel dynamic="" src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
-                    fragment="tutorial-pr-instructions"></panel>
-                </p>
-              </div>
-            </div>
         </panel>
       </panel>
     </div>
     <p></p>
     <p><span class="activity-desc">Quality Assurance</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.6</code> <strong>Can use simple JUnit tests</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.6a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain developer testing</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1313,7 +924,7 @@ Ben is a student
               </p>
               <div id="title-and-body">
                 <div>
-                  <h4 id="what-2">What</h4>
+                  <h4 id="what-3">What</h4>
                 </div>
                 <div id="main">
                   <div>
@@ -1324,7 +935,7 @@ Ben is a student
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.6b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain the need for early developer testing</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1361,9 +972,9 @@ Ben is a student
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":muscle: Exercises" expandable="">
+                      <panel header=":muscle: Exercises" expandable="">
                         <div>
-                          <panel dynamic="" header=":lock::key: implications of developers testing their own code">
+                          <panel header=":lock::key: implications of developers testing their own code">
                             <question has-input="true">
                               <p>Discuss pros and cons of developers testing their own code.</p>
                               <div slot="answer">
@@ -1386,7 +997,7 @@ Ben is a student
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock::key: Cost of bug fixing over time">
+                          <panel header=":lock::key: Cost of bug fixing over time">
                             <question>
                               <p>The cost of fixing a bug goes down as we reach the product release.</p>
                               <ul radio-group="37242" class="radio-list">
@@ -1400,7 +1011,7 @@ Ben is a student
                           </panel>
                         </div>
                         <div>
-                          <panel dynamic="" header=":lock: Why early testing?">
+                          <panel header=":lock: Why early testing?">
                             <question has-input="true">
                               <p>Explain why early testing by developers is important.</p>
                             </question>
@@ -1416,7 +1027,7 @@ Ben is a student
             <p><big><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Evidence:</big></p>
             <div>
               <div>
-                <panel dynamic="" header=":lock: Why early testing?">
+                <panel header=":lock: Why early testing?">
                   <question has-input="true">
                     <p>Explain why early testing by developers is important.</p>
                   </question>
@@ -1424,7 +1035,7 @@ Ben is a student
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.6c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain test drivers</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1478,7 +1089,7 @@ Ben is a student
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.6d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain test automation tools</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1528,7 +1139,7 @@ Ben is a student
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.6e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can use simple JUnit tests</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1555,7 +1166,7 @@ Ben is a student
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="http://junit.sourceforge.net/doc/cookbook/cookbook.htm">JUnit cookbook</a> - a short tutorial from JUnit creators</li>
                           <li><a href="http://www.vogella.com/articles/JUnit/article.html">JUnit tutorial</a> - a more detailed tutorial from a developer Lars Vogel</li>
@@ -1586,12 +1197,12 @@ Ben is a student
     <p></p>
     <p><span class="activity-desc">Project Management</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.7</code> <strong>Can use GitHub PRs in a workflow</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.7a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can use Git to resolve merge conflicts</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1601,7 +1212,7 @@ Ben is a student
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\gitAndGithub\branch\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Branching%%"></panel>
+                  <panel src="/website-base\book\gitAndGithub\branch\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Branching%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1670,7 +1281,7 @@ white
               <p><strong>Submission</strong>: Show your merge commit during the tutorial.</p>
             </div>
         </panel>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.7b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can review and merge PRs on GitHub</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1680,9 +1291,9 @@ white
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\gitAndGithub\branch\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Branching%%"></panel>
-                  <panel dynamic="" src="/website-base\book\gitAndGithub\createPRs\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Create PRs%%"></panel>
-                  <panel dynamic="" src="/website-base\book\gitAndGithub\mergeConflicts\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Merge Conflicts%%"></panel>
+                  <panel src="/website-base\book\gitAndGithub\branch\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Branching%%"></panel>
+                  <panel src="/website-base\book\gitAndGithub\createPRs\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Create PRs%%"></panel>
+                  <panel src="/website-base\book\gitAndGithub\mergeConflicts\unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Merge Conflicts%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1744,12 +1355,12 @@ git pull origin master
             </div>
         </panel>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.8</code> <strong>Can follow Forking Workflow</strong> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span></span>
         </span>
         </span>
-        <panel dynamic="" type="warning" expanded="" no-close="">
+        <panel type="warning" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.8a</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain forking workflow</span> <span class="label label-warning"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -1786,7 +1397,7 @@ git pull origin master
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow">A detailed explanation of the Forking Workflow</a> - From Atlassian</li>
                         </ul>
@@ -1797,7 +1408,7 @@ git pull origin master
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.8b</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can follow Forking Workflow</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1806,7 +1417,7 @@ git pull origin master
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\revisionControl\forkingWorkflow\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Revision Control → Forking Workflow%%"></panel>
+                  <panel src="/website-base\book\revisionControl\forkingWorkflow\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Revision Control → Forking Workflow%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1878,7 +1489,7 @@ git pull origin master
               <p><strong>Submission</strong>: Show during the tutorial.</p>
             </div>
         </panel>
-        <panel dynamic="" type="info" expanded="" no-close="">
+        <panel type="info" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.8c</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain DRCS vs CRCS</span> <span class="label label-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1912,7 +1523,7 @@ git pull origin master
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.8d</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain feature branch flow</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1921,7 +1532,7 @@ git pull origin master
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\revisionControl\forkingWorkflow\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Revision Control → Forking Workflow%%"></panel>
+                  <panel src="/website-base\book\revisionControl\forkingWorkflow\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Revision Control → Forking Workflow%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1942,7 +1553,7 @@ git pull origin master
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow">A detailed explanation of the Feature Branch Workflow</a> - From Atlassian</li>
                         </ul>
@@ -1953,7 +1564,7 @@ git pull origin master
               </div>
             </div>
         </panel>
-        <panel dynamic="" type="success" expanded="" no-close="">
+        <panel type="success" expanded="" no-close="">
           <span slot="header" class="panel-title"><span><code>W5.8e</code> <span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Can explain centralized flow</span> <span class="label label-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
@@ -1962,7 +1573,7 @@ git pull origin master
             <div>
               <div>
                 <p>
-                  <panel dynamic="" src="/website-base\book\revisionControl\featureBranchFlow\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Revision Control → Feature Branch Workflow%%"></panel>
+                  <panel src="/website-base\book\revisionControl\featureBranchFlow\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Revision Control → Feature Branch Workflow%%"></panel>
                 </p>
               </div>
               <p></p>
@@ -1980,7 +1591,7 @@ git pull origin master
                   </div>
                   <div>
                     <div>
-                      <panel dynamic="" header=":paperclip: Resources" expanded="">
+                      <panel header=":paperclip: Resources" expanded="">
                         <ul>
                           <li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow">A detailed explanation of the Centralized Workflow</a> - From Atlassian</li>
                         </ul>
@@ -1996,7 +1607,7 @@ git pull origin master
     <p></p>
     <p><span class="activity-desc">🅿️ Project</span></p>
     <div class="indented">
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.9</code> <strong>Can work with a 2KLoC code base</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
@@ -2055,7 +1666,7 @@ git pull origin master
           </ul>
         </div>
       </panel>
-      <panel dynamic="" no-close="">
+      <panel no-close="">
         <span slot="header" class="panel-title"><span><code>W5.10</code> <strong>Can conceptualize a product</strong> <span class="label label-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>

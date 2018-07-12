@@ -81,7 +81,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
       <div>
         <div>
           <p>
-            <panel dynamic="" src="/website-base\book\oopDesign\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Object Oriented Programming → Inheritance → What%%"></panel>
+            <panel src="/website-base\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Object Oriented Programming → Inheritance → What%%"></panel>
           </p>
         </div>
         <p></p>
@@ -98,7 +98,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is
                 expected.</p>
               <tip-box>
-                <img src="/website-base/book/oopDesign/inheritance/substitutability/images/staff.png" height="80">
+                <img src="/website-base/book/oop/inheritance/substitutability/images/staff.png" height="80">
                 <p></p>
                 <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object
                   of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
@@ -133,7 +133,7 @@ AcademicStaff academicStaff = staff; // Not OK
         <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially
           break the <code>Payroll</code> class functionality.</li>
       </ul>
-      <panel dynamic="" type="seamless" header="%%Another example%%">
+      <panel type="seamless" header="%%Another example%%">
         <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code>          because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
         <img src="/website-base/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
         <p></p>
@@ -250,9 +250,9 @@ AcademicStaff academicStaff = staff; // Not OK
             </div>
             <div>
               <div>
-                <panel dynamic="" header=":muscle: Exercises" expandable="">
+                <panel header=":muscle: Exercises" expandable="">
                   <div>
-                    <panel dynamic="" header=":lock::key: Coupling levels of alternative designs">
+                    <panel header=":lock::key: Coupling levels of alternative designs">
                       <question has-input="true">
                         <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                         <tip-box>
@@ -268,7 +268,7 @@ AcademicStaff academicStaff = staff; // Not OK
                     </panel>
                   </div>
                   <div>
-                    <panel dynamic="" header=":lock::key: regressions and coupling.">
+                    <panel header=":lock::key: regressions and coupling.">
                       <question has-input="true">
                         <p>Explain the link (if any) between regressions and coupling.</p>
                         <div slot="answer">
@@ -278,7 +278,7 @@ AcademicStaff academicStaff = staff; // Not OK
                     </panel>
                   </div>
                   <div>
-                    <panel dynamic="" header=":lock::key: Coupling and testability">
+                    <panel header=":lock::key: Coupling and testability">
                       <question has-input="true">
                         <p>Discuss the relationship between coupling and
                           <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
@@ -290,7 +290,7 @@ AcademicStaff academicStaff = staff; // Not OK
                     </panel>
                   </div>
                   <div>
-                    <panel dynamic="" header=":lock::key: Statements about coupling">
+                    <panel header=":lock::key: Statements about coupling">
                       <question>
                         <p>Choose the correct statements.</p>
                         <ul class="task-list">
@@ -395,7 +395,7 @@ AcademicStaff academicStaff = staff; // Not OK
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.8.3</a> at Wed, 11 Jul 2018 03:37:47 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.8.4</a> at Thu, 12 Jul 2018 01:10:07 GMT</small></div>
 </footer>
 </div>
 </body>
